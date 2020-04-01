@@ -1,0 +1,13 @@
+.landingSectionCentre {
+    text-align: center;
+}
+
+.desktop-nav .nav_list li.featured {
+    background: #0086ca;
+    padding: 0 0.8rem;
+    border: 1px solid #0086ca;
+    text-transform: uppercase;
+    font-size: 1.28rem;
+    font-weight: bolder;
+}
+
