@@ -452,7 +452,13 @@
             var e = document.getElementById("country");
             var result = e.options[e.selectedIndex].value;
             //   alert(result);https://ibcol.github.io/hk/registration
-            window.open("https://ibcol.github.io/" + result + "/registration", "_blank");
+            if(result == "cn"){
+                window.open("https://ibcol.github.io/" + result + "/registration", "_blank");
+            } else {
+                window.open("https://docs.google.com/forms/d/e/1FAIpQLSfnNZDl33Yxn_yuBIC0I8bU8jR-WZEI7YScc-lZZ-6OdG9VBw/viewform", "_blank");
+
+            }
+
         }
     </script>
 
