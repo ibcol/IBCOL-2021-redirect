@@ -289,12 +289,16 @@
                             target="_blank" class="sm-title flag">ID-BCOL (Indonesia)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-in"></span><a style="padding:0 0 0 10px"
                             href="./in/index.html" target="_blank" class="sm-title flag">IN-BCOL (India)</a></div>
+
                     <div class="sm"><span class="flag-icon flag-icon-jp"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">JP-BCOL (Japan)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-kh"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">KH-BCOL (Cambodia)</a></div>
+
                     <div class="sm"><span class="flag-icon flag-icon-kr"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">KR-BCOL (South Korea)</a></div>
+                            href="./en-kr/index.html" target="_blank" class="sm-title flag">KR-BCOL (South Korea)</a>
+                    </div>
+
                     <div class="sm"><span class="flag-icon flag-icon-mn"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">MN-BCOL (Mongolia)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-my"></span><a style="padding:0 0 0 10px"
@@ -308,7 +312,7 @@
                             (Pakistan)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-sg"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">SG-BCOL (Singapore)</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-th"></span><a style="padding:0 0 0 10px"
+                    <div class="sm"><span class="flag-icon flag-icon-th"></span><a href="./en-th/index.html" style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">TH-BCOL (Thailand)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-tw"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">TW-BCOL (Taiwan)</a></div>
@@ -418,7 +422,8 @@
                         <option value="us">US-BCOL (United States)</option>
                         <option value="vn">VN-BCOL (Vietnam)</option>
                     </select></div>
-                <div class="col-block"><button onclick="shoot()" style="background-color:#4986e7;color:white;font-size:16px;">GO</button>
+                <div class="col-block"><button onclick="shoot()"
+                        style="background-color:#4986e7;color:white;font-size:16px;">GO</button>
                 </div>
             </div>
             <p style="padding-left:15px">Create a new committee or join one? Please
@@ -452,10 +457,13 @@
             var e = document.getElementById("country");
             var result = e.options[e.selectedIndex].value;
             //   alert(result);https://ibcol.github.io/hk/registration
-            if(result == "cn"){
+            if (result == "cn") {
                 window.open("https://ibcol.github.io/" + result + "/registration", "_blank");
+
             } else {
-                window.open("https://docs.google.com/forms/d/e/1FAIpQLSfnNZDl33Yxn_yuBIC0I8bU8jR-WZEI7YScc-lZZ-6OdG9VBw/viewform", "_blank");
+                window.open(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSfnNZDl33Yxn_yuBIC0I8bU8jR-WZEI7YScc-lZZ-6OdG9VBw/viewform",
+                    "_blank");
 
             }
 
