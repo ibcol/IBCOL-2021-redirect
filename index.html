@@ -104,14 +104,9 @@
 
         <div class="home-content">
             <div class="row home-content__main">
-                <h1>Will you sit on the sidelines or get in on the game?</h1><br><br>
-                <h3 style="font-size:2.4rem">Join the world’s largest gathering of budding and reigning experts in
-                    applied blockchain and cryptography across academia, industry, government</h3>
-                <h3 style="font-size:2.4rem">Due to the global coronavirus outbreak, the nature of IBCOL 2020
-                    competition may change, such as an introduction of online components. However, IBCOL 2020 will
-                    continue as usual, stay tuned for the details.</h3>
-                <div class="home-content__button"><a href="#sponsors" class="btn btn--primary btn--large">WHAT WE
-                        DO</a><a href="#committees" class="btn btn--large">HOW TO JOIN</a></div>
+                <h1>A Competition for a Digital Revolution in Revoluntary Digital Format</h1><br><br>
+                <h3 style="font-size:2.4rem">IBCOL 2020 will be held entirely online from July 3rd to 5th from 9am to 9pm (GMT+8)<br>Stay tuned for more details!</h3>
+                <div class="home-content__button"><a href="#sponsors" class="btn btn--primary btn--large">WHAT WE DO</a><a href="#event" class="btn btn--large">JOIN HSBC MENTOR DAY</a></div>
             </div>
         </div>
 
@@ -300,7 +295,7 @@
                     </div>
 
                     <div class="sm"><span class="flag-icon flag-icon-mn"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">MN-BCOL (Mongolia)</a></div>
+                            target="_blank" class="sm-title flag" href="./mn/index.html">MN-BCOL (Mongolia)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-my"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">MY-BCOL (Malaysia)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-nz"></span><a style="padding:0 0 0 10px"
@@ -567,7 +562,10 @@
 
             if (result == "kr" || result == "th") {
                 window.open("https://ibcol.github.io/" + "en-" + result + "/registration", "_blank");
-            } else {
+            } else if (result == "mn") {
+                window.open("https://docs.google.com/forms/d/14cFrG4cJZN1zdhBeB4IhjEkOTmkIQnzPGeh3t3FBS1o", "_blank");
+            }
+            else {
                 window.open("https://ibcol.github.io/" + result + "/registration", "_blank");
             }
         }
