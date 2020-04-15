@@ -1,0 +1,89 @@
+/* ipad */
+@media only screen and (device-width: 768px) {
+    .powDeadLine {
+        height: 150px;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .powBtnfontSize {
+        font-size: 8px;
+    }
+}
+
+/* 6/7/8plus */
+@media only screen and (device-width: 414px) {
+    .powDeadLine {
+        height: 150px;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .powBtnfontSize {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .indexTitle {
+
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+    }
+}
+
+/* iphone 6/7/8 */
+@media only screen and (device-width: 375px) {
+    .powDeadLine {
+        height: 150px;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .powBtnfontSize {
+        font-size: 8px;
+    }
+}
+
+/* galaxy S5 */
+@media only screen and (device-width: 360px) {
+    .powDeadLine {
+        height: 150px;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .powBtnfontSize {
+        font-size: 8px;
+    }
+}
+
+/*  i5 */
+@media only screen and (device-width: 320px) {
+    .powDeadLine {
+        height: 150px;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .powBtnfontSize {
+        font-size: 8px;
+    }
+
+
+    .indexTitle {
+
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+    }
+}
