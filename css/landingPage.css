@@ -11,3 +11,34 @@
     font-weight: bolder;
 }
 
+/* contact */
+
+.position {
+    width: fit-content;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.personalInfo {
+    width: fit-content;
+}
+
+.contactName {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(59, 120, 216);
+    font-size: 24px;
+}
+
+.profBlock {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (device-width: 768px) {
+    .profBlock{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 330px !important;
+    }
+}
