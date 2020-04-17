@@ -80,7 +80,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.941;
-  color: black;
+  color: rgba(0, 0, 0, 0.64);
   margin: 0;
   padding: 0;
 }
