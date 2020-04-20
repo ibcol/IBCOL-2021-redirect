@@ -1,3 +1,18 @@
+
+/* general */
+
+
+
+/* sponsor section */
+
+.sponsor {
+    margin-top: 20px;
+}
+
+.sponsorImg {
+    /* max-height:450px; */
+}
+
 .landingSectionCentre {
     text-align: center;
 }
@@ -35,10 +50,3 @@
     padding-bottom: 20px;
 }
 
-@media only screen and (device-width: 768px) {
-    .profBlock{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 330px !important;
-    }
-}
