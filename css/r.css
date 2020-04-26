@@ -1,0 +1,50 @@
+/* the prizes */
+
+.prizeHeader {
+    /* height:  60px !important; */
+}
+
+.prizesImg {
+    width: 100%;
+    height: 100%;
+}
+
+.prizeBlock {
+    text-align: center;
+}
+
+.olympicWinner {
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
+@media screen and (max-width: 990px) {
+    .prizesImg {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .prizeBlock {
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .changeToCol-6 {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+.prizesImg {
+    width: 150px;
+    height: 150px;
+}
+
+}

@@ -1,3 +1,24 @@
+/* general */
+.imgSetting {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgFrame {
+    width: 150px;
+    height: 150px;
+}
+
+/* sponsor section */
+
+.sponsor {
+    margin-top: 20px;
+}
+
+.sponsorImg {
+    /* max-height:450px; */
+}
+
 .landingSectionCentre {
     text-align: center;
 }
@@ -35,10 +56,36 @@
     padding-bottom: 20px;
 }
 
-@media only screen and (device-width: 768px) {
-    .profBlock{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 330px !important;
-    }
+/* hsbc */
+.name {
+    color: black;
+    font-size: 18px;
+    border: 1px;
+    margin-bottom: 0px;
+}
+
+.aoi {
+    color: black;
+    font: 12px;    margin-bottom: 0px;
+
+}
+.pos {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+
+.pos.pos1 {
+    /* margin-bottom: 40px; */
+    color: black;
+    font-size: 12px;
+}
+
+.ulsize {
+    color: black;
+    font-size: 10px;
+}
+
+.rowMargin40 {
+    margin-bottom: 40px;
 }
