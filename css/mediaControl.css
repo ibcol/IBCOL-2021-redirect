@@ -67,9 +67,34 @@
         padding-top: 20px;
         padding-left: 0px;
     }
-    .profBlock{
+
+    .profBlock {
         padding-top: 20px;
         padding-bottom: 20px;
         width: 330px !important;
     }
+}
+
+@media only screen and (max-width: 767px) {
+    .d-none {
+        display: none !important
+    }
+
+    .widthSmFix {
+        width: 100% !important;
+    }
+
+    .paddingSmFix {
+        padding: 0px 32px 0px;
+    }
+
+    .s-section {
+        padding-top: 2rem;
+    }
+
+
+    /* .mediaShowFixCol12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    } */
 }
