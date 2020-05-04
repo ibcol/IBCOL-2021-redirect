@@ -1,0 +1,67 @@
+.paddingFixed {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.headerText {
+    font-size: 36px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.paraText {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.paraSpan {
+    color: #000000;
+    font-weight: bold;
+}
+
+.sectionPtFixed {
+    padding-top: 0px;
+}
+
+.last {
+    padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headerText {
+        font-size: 24px;
+    }
+
+    .titleText {
+        font-size: 18px;
+    }
+
+    .paraText {
+        font-size: 14px;
+    }
+}
