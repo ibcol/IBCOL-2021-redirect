@@ -159,3 +159,24 @@ hr {
 .ulColor {
     color: #000;
 }
+
+/* replace base style */
+
+.block-1-2{
+    width: 100%;
+}
+
+.row.emailText{
+    width: 100%!important;
+}
+
+.row .row{
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+.container-fluid .paraText{
+    font-size: 14px;
+}
+
+/* end of replace base style */
