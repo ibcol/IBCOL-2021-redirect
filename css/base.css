@@ -944,3 +944,21 @@ textarea {
 }
 
 /*# sourceMappingURL=base.css.map */
+
+
+.w100 {
+  width: 100% !important;
+}
+
+.centre {
+  text-align: center;
+}
+
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+/* .fs24 {
+  font-size: 24px !important;
+} */

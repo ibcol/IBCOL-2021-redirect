@@ -5,8 +5,10 @@
 }
 
 .prizesImg {
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    /* width: 100%;
+    height: 100%; */
+    /* text-align: center; */
 }
 
 .prizeBlock {
@@ -19,12 +21,17 @@
     padding: 5px;
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+}
 
 @media screen and (max-width: 990px) {
     .prizesImg {
-        width: 150px;
-        height: 150px;
+        margin-top: 24px;
+        /* width: 80%;
+        height: 80%; */
+        /* width: 150px;
+        height: 150px; */
     }
 
     .prizeBlock {
@@ -40,9 +47,19 @@
 
 @media screen and (min-width: 768px) {
     .prizesImg {
-        width: 150px;
-        height: 150px;
+        /* width: 150px;
+        height: 150px; */
     }
 
 }
 
+
+@media screen and (max-width: 414px) {
+    .mt-3-sp {
+        margin-top: 28px;
+    }
+
+    .center-sp {
+        text-align: center;
+    }
+}
