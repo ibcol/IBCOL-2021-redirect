@@ -73,6 +73,10 @@
         padding-bottom: 20px;
         width: 330px !important;
     }
+
+    .w-33 {
+        width: 33.3% !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
