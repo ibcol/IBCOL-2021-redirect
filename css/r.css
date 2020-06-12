@@ -4,6 +4,14 @@
     /* height:  60px !important; */
 }
 
+.text-black {
+    color: black;
+}
+
+.left {
+    text-align: left;
+}
+
 .prizesImg {
     width: fit-content;
     /* width: 100%;
@@ -22,6 +30,20 @@
 }
 
 
+.ballSize49 {
+    width: 49px;
+    height: 49px;
+}
+
+.icon .time-line49 {
+    height: 1px;
+    width: 35%;
+    position: absolute;
+    background: lightgrey;
+    top: 26px;
+    right: -20px;
+}
+
 @media screen and (min-width: 1200px) {
 
     .pl-sp {
@@ -29,9 +51,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 990px) {
     .prizesImg {
