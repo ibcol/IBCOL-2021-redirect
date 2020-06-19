@@ -1,167 +1,170 @@
-var teamIdForRowLeft = [
+// HK
+var teamIdForRowLeftHK = [
     '102',
     '009',
     '634',
-    '220',
-    '380',
-    '258',
-    '118',
-    '236',
-    '917',
-    '755',
-    '506',
-    '999'
+    '220'
 ];
 
-var teamIdForRowRight = [
+var teamIdForRowRightHK = [
     '328',
     '267',
     '105',
-    '586',
-    '858',
-    '773',
-    '167',
-    '990',
-    '201',
-    '737',
-    '487',
-    '035'
+    '586'
 ];
 
-// var uniRowLeft = [
-//     'CUHK',
-//     'HKU',
-//     'POLYU',
-//     'King George V School',
-//     'CITYU',
-//     'CITYU',
-//     'HKU',
-//     'POLYU',
-//     'CUHK',
-//     'HKU',
-//     'CITYU',
-//     'POLYU'
-// ];
-
-
-
-var uniRowRight = [
-    'CITYU',
-    'CITYU',
-    'HKU',
-    'HKU',
-    'POLYU',
-    'HKU',
-    'CITYU',
-    'CITYU',
-    'POLYU',
-    'HKU',
-    'HSU',
-    'HKU'
-];
-
-
-var pjNameRowLeft = [
+var pjNameRowLeftHK = [
     'TrustLand',
     'Blockchain Credentials',
     'Digital Entertainment industry benefited from blockchain',
-    'Imposter',
-    'MicroCent',
-    'Blockchain Health Credentials',
-    'Spearchain',
-    'SecureResearch',
-    'BCred: A Blockchain Platform for Academic Credential',
-    'SmartLending',
-    "Khany'iSA: Illuminate South Africa",
-    'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology'
+    'Imposter'
+
 ];
 
-
-var pjNameRowRight = [
+var pjNameRowRightHK = [
     'Ukwazi',
     'Blockchain Health Pass',
     'Beacon Blockchain Group',
-    'Bchain Network',
-    'Ascension',
-    'Tixra: Blockchain-based Ticketing Platform',
-    'i-Landy',
-    'PhilanChain',
-    'Arianee Killer',
-    'MiHK-2020',
-    'FoodStyle',
-    'temp'
+    'Bchain Network'
 ];
 
-// var imgLeft = [
-//     'cuhk.png',
-//     'hku.png',
-//     'polyu.png',
-//     'King George V School.png',
-//     'cityu.png',
-//     'cityu.png',
-//     'hku.png',
-//     'polyu.png',
-//     'cuhk.png',
-//     'hku.png',
-//     'cityu.png',
-//     'polyu.png',
-//     ];
-
-// var imgRight = [
-//     'cityu.png',
-//     'cityu.png',
-//     'hku.png',
-//     'hku.png',
-//     'polyu.png',
-//     'hku.png',
-//     'cityu.png',
-//     'cityu.png',
-//     'polyu.png',
-//     'hku.png',
-//     'hsu.png',
-//     'hku.png',
-// ];
-
-var imgLeft = [
-    'hkbcol.png'
-    ];
-
-var imgRight = [
-    'hkbcol.png'
+var imgLeftHK = [
+    'magic-chain/hkFlat.png'
 ];
 
+var imgRightHK = [
+    'magic-chain/hkFlat.png'
+];
+
+// CN
+var teamIdForRowLeftCN = [
+    '222',
+    '223',
+    '224',
+    '225'
+];
+
+var teamIdForRowRightCN = [
+    '661',
+    '662',
+    '663',
+    '664'
+];
+
+var pjNameRowLeftCN = [
+    'TrustLand',
+    'Blockchain Credentials',
+    'Digital Entertainment industry benefited from blockchain',
+    'Imposter'
+
+];
+
+var pjNameRowRightCN = [
+    'Ukwazi',
+    'Blockchain Health Pass',
+    'Beacon Blockchain Group',
+    'Bchain Network'
+];
+
+var imgLeftCN = [
+    'team-x/cnFlat.png'
+];
+
+var imgRightCN = [
+    'team-x/cnFlat.png'
+];
 
 
 var finalists = document.getElementById('finalists');
+var hk = document.getElementById('hk');
+var cn = document.getElementById('cn');
 
-for (let i = 0; i < teamIdForRowLeft.length; i++) {
-    finalists.innerHTML += (
-        '<div class="row mt-2">' +
+for (let i = 0; i < teamIdForRowLeftHK.length; i++) {
+    hk.innerHTML += (
+        '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12">' +
-        '<div class="row  justify-content-sm-center justify-content-xs-center ">' +
+        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
-        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgLeft[0]+'" class="">' +
+        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgLeftHK[0] + '" class="">' +
         '</div>' +
         '<div class="col-8 ">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>'+pjNameRowLeft[i]+'</b></p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team '+teamIdForRowLeft[i]+'</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowLeftHK[i] + '</b></p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team ' + teamIdForRowLeftHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
 
         '<div class="col-md-6 col-sm-12">' +
-        '<div class="row  justify-content-sm-center justify-content-xs-center">' +
+        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
-        '<img src="./images/2020-HKBCOL-Finalists/uni/'+imgRight[0]+'" class="">' +
+        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgRightHK[0] + '" class="">' +
         '</div>' +
         '<div class="col-8">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>'+pjNameRowRight[i]+'</b></p>' +
-        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team '+teamIdForRowRight[i]+'</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowRightHK[i] + '</b></p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team ' + teamIdForRowRightHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
         '</div>' +
         '</div>' +
         '</div>' +
         '</div>'
     );
+}
+
+
+for (let i = 0; i < teamIdForRowLeftCN.length; i++) {
+    cn.innerHTML += (
+        '<div class="row mt-4">' +
+        '<div class="col-md-6 col-sm-12">' +
+        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+        '<div class="col-4 ">' +
+        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgLeftCN[0] + '" class="">' +
+        '</div>' +
+        '<div class="col-8 ">' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowLeftCN[i] + '</b></p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team ' + teamIdForRowLeftCN[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+
+        '<div class="col-md-6 col-sm-12">' +
+        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
+        '<div class=" col-4 ">' +
+        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgRightCN[0] + '" class="">' +
+        '</div>' +
+        '<div class="col-8">' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowRightCN[i] + '</b></p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team ' + teamIdForRowRightCN[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '</div>'
+    );
+}
+
+function listCh(sel) {
+    // console.log(sel.options[sel.selectedIndex].value);
+    var showArr = ['hk', 'cn'];
+    var selectedVal = sel.options[sel.selectedIndex].value;
+
+    if (selectedVal === 'all') {
+        console.log('x');
+        for (let i = 0; i < showArr.length; i++) {
+            document.getElementById(showArr[i]).style.display = "block";
+        }
+        return;
+    }
+
+    for (let i = 0; i < showArr.length; i++) {
+        if (selectedVal !== showArr[i]) {
+            document.getElementById(showArr[i]).style.display = "none";
+        }
+        if (selectedVal === showArr[i]) {
+            document.getElementById(showArr[i]).style.display = "block";
+        }
+    }
+
+    return;
 }
