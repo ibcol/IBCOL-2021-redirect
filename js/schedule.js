@@ -1,20 +1,15 @@
-var mainTimeHKT = [
-    '08:00',
-    '10:00',
-    '13:00',
-    '16:00',
-    '19:00',
-    '22:00'
+var mainTimeTitleGmt0 = [
+    ['00:00', '02:00', '05:00', '08:00', '11:00', '14:00']
 ]
 
-var mainTimeGmtPlus9 = [
-    '09:00',
-    '11:00',
-    '14:00',
-    '17:00',
-    '20:00',
-    '23:00'
-]
+var gmt0 = [
+    ['00:30', '01:15', '02:45', '03:30', '04:15', '05:45', '06:30', '07:15', '08:45', '09:30', '10:15', '11:45', '12:30']
+];
+
+var gmt8 = [
+    ['08:30', '09:15', '10:45', '11:30', '12:15', '13:45', '14:30', '15:15', '16:45', '17:30', '18:15', '19:45', '20:30']
+];
+
 
 var mainTimeTitle = [
     'timeTitleP0',
@@ -96,26 +91,6 @@ var panelRowNum = [
     '2'
 ];
 
-var hkt = [
-    '08:30',
-    '09:15',
-
-    '10:45',
-    '11:30',
-    '12:15',
-
-    '13:45',
-    '14:30',
-    '15:15',
-
-    '16:45',
-    '17:30',
-    '18:15',
-
-    '19:45',
-    '20:30'
-];
-
 var panel = [
     'panel0',
     'panel1',
@@ -135,7 +110,7 @@ for (let i = 0; i < 5; i++) {
                 '<div class="w-20 px-0" id="">' +
                 '<div class="cell" >' +
                 '<span class="flag-icon flag-icon-' + flat[rowPositionIndex][k] + '"></span>' +
-                '<p class="my-0 fw-700 timeP' + i + 'r' + j + '">' + hkt[rowPositionIndex] + '</p>' +
+                '<p class="my-0 fw-700 timeP' + i + 'r' + j + '">' + gmt8[0][rowPositionIndex] + '</p>' +
                 '<p class="my-0"><b>Team ' + teamId[rowPositionIndex][k] + '</b></p>' +
                 '<p class="my-0">' + countries[rowPositionIndex][k] + '</p>' +
                 '</div>' +
@@ -149,42 +124,39 @@ for (let i = 0; i < 5; i++) {
 
 
 // change time func
-var gmtPlus9 = [
-    '09:30',
-    '10:15',
-    '11:45',
-    '12:30',
-    '13:15',
-    '14:45',
-    '15:30',
-    '16:15',
-    '17:45',
-    '18:30',
-    '19:15',
-    '20:45',
-    '21:30'
-]
-
 function timeCh(sel) {
-    if (sel.options[sel.selectedIndex].text === "Japan GMT+9") {
-        changeTimeLoop(gmtPlus9, mainTimeGmtPlus9);
-    }
+    // var selectedIndex = sel.options[sel.selectedIndex].index;
+    // console.log('selectedIndex:' + selectedIndex);
 
-    if (sel.options[sel.selectedIndex].text === "Hong Kong GMT+8") {
-        changeTimeLoop(hkt, mainTimeHKT);
-    }
+    let mainTimeRow = [];
+    let scheduleTimeRow = []
 
+    for (let i = 0; i < 6; i++) {
+        var hr = parseInt(mainTimeTitleGmt0[0][i].split(":", 1)) + parseInt(sel.value.split(":", 1));
+        hr = timePositionalNotation(hr);
+        mainTimeRow.push(hr + ':' + mainTimeTitleGmt0[0][i].slice(3, 5));
+    }
+    // console.log(mainTimeRow);
+
+
+    for (let i = 0; i < 13; i++) {
+        var hr = parseInt(gmt0[0][i].split(":", 1)) + parseInt(sel.value.split(":", 1));
+        hr = timePositionalNotation(hr);
+        scheduleTimeRow.push(hr + ':' + gmt0[0][i].slice(3, 5));
+    }
+    // console.log(scheduleTimeRow);
+
+    changeTimeLoop(scheduleTimeRow, mainTimeRow);
 }
 
 
-
-function changeTimeLoop(timeCells, timeTitle) {
+function changeTimeLoop(scheduleTimeRow, mainTimeRow) {
     let rowPositionIndexForTime = 0;
     for (let i = 0; i < 5; i++) {
         for (let j = 0; j < panelRowNum[i]; j++) {
             var els = document.getElementsByClassName(panelRowTimeClassName[rowPositionIndexForTime]);
             Array.prototype.forEach.call(els, function (el) {
-                el.innerHTML = timeCells[rowPositionIndexForTime];
+                el.innerHTML = scheduleTimeRow[rowPositionIndexForTime];
             });
             rowPositionIndexForTime++;
         }
@@ -192,13 +164,9 @@ function changeTimeLoop(timeCells, timeTitle) {
 
     for (let i = 0; i < 6; i++) {
         var els = document.getElementById(mainTimeTitle[i]);
-        // Array.prototype.forEach.call(els, function (el) {
-            els.innerHTML = timeTitle[i];
-        // });
+        els.innerHTML = mainTimeRow[i];
     }
 }
-
-
 
 function showWeb(index) {
     // window.open('https://hk.ibcol.org/2020-HKBCOL-Finalists/' + hkbcolFinalists[index] + '.html');
@@ -233,5 +201,22 @@ function getPanel(index) {
         panel.style.display = "block";
     } else {
         panel.style.display = "none";
+    }
+}
+
+function timePositionalNotation(val) {
+    if (val <= 9) {
+        return "0" + val;
+    } else if (val == 24) {
+        return "00";
+    } else if (val > 24) {
+        // return val;
+        for (let i = 1; i < 3; i++) {
+            if ((val - i) == 24) {
+                return "0" + i;
+            }
+        }
+    } else {
+        return val;
     }
 }
