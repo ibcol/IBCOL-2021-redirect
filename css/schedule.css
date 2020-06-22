@@ -32,7 +32,7 @@
 
 .cellBorder0 {
     border-width: 1px 1px 1px 1px;
-    border-color: #000000;
+    border-color: #fff;
     border-style: solid;
     color: #000000;
 }
@@ -40,28 +40,28 @@
 
 .cellBorder1 {
     border-width: 0px 1px 0px 1px;
-    border-color: #000000;
+    border-color: #fff;
     border-style: solid;
     color: #000000;
 }
 
 .cellBorder2 {
-    border-width: 0px 1px 0px 1px;
-    border-color: #000000;
+    border-width: 1px 1px 0px 1px;
+    border-color: #fff;
     border-style: solid;
     color: #000000;
 }
 
 .cellBorder3 {
     border-width: 1px 1px 1px 1px;
-    border-color: #000000;
+    border-color: #fff;
     border-style: solid;
     color: #000000;
 }
 
 .cellBorder4 {
     border-width: 0px 1px 1px 1px;
-    border-color: #000000;
+    border-color: #fff;
     border-style: solid;
     color: #000000;
 }
@@ -84,7 +84,7 @@
     text-align: center; */
     background: #C4C4C4;
 
-    border: 1px solid #000000;
+    border: 1px solid #fff;
     color: #000000;
     margin-bottom: 0px;
 }

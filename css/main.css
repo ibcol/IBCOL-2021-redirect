@@ -1922,11 +1922,11 @@ body.menu-is-open {
 }
 
 .header-menu-toggle.opaque {
-  background-color: #000000;
+  background-color: transparent;
 }
 
 .opaque .header-menu-icon {
-  background-color: white;
+  background-color: black;
 }
 
 .header-menu-icon {

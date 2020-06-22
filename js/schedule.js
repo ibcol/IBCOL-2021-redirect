@@ -132,9 +132,27 @@ function timeCh(sel) {
     let scheduleTimeRow = []
 
     for (let i = 0; i < 6; i++) {
+        var ampm = "";
+        var timeX = "";
+
         var hr = parseInt(mainTimeTitleGmt0[0][i].split(":", 1)) + parseInt(sel.value.split(":", 1));
         hr = timePositionalNotation(hr);
-        mainTimeRow.push(hr + ':' + mainTimeTitleGmt0[0][i].slice(3, 5));
+
+        if (hr > 11) {
+            ampm = "pm";
+            timeX = parseInt(hr) - 12;
+            if (timeX === 0) {
+                timeX = 12;
+            }
+        } else {
+            timeX = parseInt(hr);
+            if (timeX === 0) {
+                timeX = 12;
+            }
+            ampm = "am";
+        }
+
+        mainTimeRow.push(hr + ':' + mainTimeTitleGmt0[0][i].slice(3, 5) + " (" + timeX + ampm + ")");
     }
     // console.log(mainTimeRow);
 
