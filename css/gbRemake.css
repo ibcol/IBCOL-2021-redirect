@@ -214,6 +214,10 @@
     line-height: 65px;
 }
 
+.fs-24 {
+    font-size: 24px !important;
+}
+
 .item-title {
     font-size: 18px !important;
 }

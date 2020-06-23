@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /national-committees-required.html
