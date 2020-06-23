@@ -195,6 +195,10 @@
     line-height: 49px;
 }
 
+.textBlack {
+    color: #000 !important;
+}
+
 .inSizeBall2 {
     position: absolute;
     top: 28%;
