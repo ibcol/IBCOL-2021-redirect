@@ -148,6 +148,21 @@
     font-size: 28px !important;
 }
 
+/* HO */
+
+.h-3hup {
+    height: 184px !important;
+}
+
+.h-1h {
+    height: 152px !important;
+}
+
+.h-half {
+    height: 132px !important;
+}
+
+/* HO */
 @media only screen and (max-width: 1050px) {
     .inSizeBall3 {
         position: absolute;
@@ -236,7 +251,9 @@
 
 @media only screen and (max-width: 600px) {
 
-
+    .fs-sm-28 {
+        font-size: 28px !important;
+    }
 
 
     .fs-24-sm-18 {
