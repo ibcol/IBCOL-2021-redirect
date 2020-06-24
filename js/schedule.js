@@ -108,7 +108,7 @@ for (let i = 0; i < 5; i++) {
         for (let k = 0; k < 5; k++) {
             pirj.innerHTML += (
                 '<div class="w-20 px-0" id="">' +
-                '<div class="cell" >' +
+                '<div class="cell py-3" >' +
                 '<span class="flag-icon flag-icon-' + flat[rowPositionIndex][k] + '"></span>' +
                 '<p class="my-0 fw-700 timeP' + i + 'r' + j + '">' + gmt8[0][rowPositionIndex] + '</p>' +
                 '<p class="my-0"><b>Team ' + teamId[rowPositionIndex][k] + '</b></p>' +
