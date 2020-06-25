@@ -290,6 +290,11 @@
 
 }
 
+.colorBgGrey {
+    border-color: #A7A7AD !important;
+    background-color: #A7A7AD !important;
+}
+
 .desktop-nav .nav_list li.featured {
     background: #0086ca;
     padding: 0 0.8rem;
