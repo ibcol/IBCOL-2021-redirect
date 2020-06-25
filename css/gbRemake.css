@@ -113,10 +113,7 @@
 }
 
 
-.aboveFooterBtn {
-    margin-top: 20px;
-    margin-bottom: 80px;
-}
+
 
 .fs18f {
     text-align: center;
@@ -443,6 +440,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .aboveFooterBtn {
+        margin-top: 20px;
+        margin-bottom: 160px;
+    }
+
     .s-homeHeaderTextColor {
         font-size: 4rem !important;
     }
@@ -558,10 +561,21 @@
         flex: 0 0 16.666667% !important;
         max-width: 6% !important;
     }
+
+    .aboveFooterBtn {
+        margin-top: 20px;
+        margin-bottom: 160px;
+    }
 }
 
 
 @media only screen and (max-width: 414px) {
+
+    .aboveFooterBtn {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
     .fs18f {
         text-align: center;
         font-size: 9px !important;
