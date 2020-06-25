@@ -131,6 +131,14 @@
     margin-top: 100px;
 }
 
+.subHead {
+    margin-top: 0px !important;
+}
+
+.headerBlueText {
+    margin-top: 0px !important;
+}
+
 
 .headerBlueText {
     font-family: Montserrat;
