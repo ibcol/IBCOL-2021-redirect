@@ -2538,7 +2538,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__button .btn {
-    font-size: 11px;
+    font-size: 13px;
     width: 28rem;
     height: 6.6rem !important;
     line-height: 6.2rem !important;
@@ -2633,7 +2633,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__button .btn {
-    width: 22rem;
+    width: 29rem;
   }
 
 }
@@ -2665,6 +2665,10 @@ html.no-csstransitions .home-content__main {
 
   .home-content h1 {
     font-size: 4rem;
+  }
+
+  .home-content__button .btn {
+    font-size: 11px;
   }
 
   .home-content h3 {
