@@ -82,6 +82,11 @@
     cursor: pointer;
 }
 
+.panelZ {
+    background-color: #A9A9A9;
+    /* cursor: pointer; */
+}
+
 .panelY {
     background-color: #FA7236;
     cursor: pointer;
