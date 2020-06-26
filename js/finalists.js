@@ -62,7 +62,7 @@ var hk = document.getElementById('hk');
 var bd = document.getElementById('bd');
 var cn = document.getElementById('cn');
 
-for (let i = 0; i < teamIdForRowLeftHK.length; i++) {
+for (let i = 0; i < 6; i++) {
     hk.innerHTML += (
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12">' +
