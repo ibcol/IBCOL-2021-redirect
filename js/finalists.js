@@ -1,82 +1,65 @@
 // HK
-var teamIdForRowLeftHK = [
-    '102',
-    '009',
-    '634',
-    '220'
+var teamIdForRowLeft = [
+    '01',
+    '03',
+    '05',
+    '07',
+    '09',
+    '11'
 ];
 
-var teamIdForRowRightHK = [
-    '328',
-    '267',
-    '105',
-    '586'
+var teamIdForRowRight = [
+    '02',
+    '04',
+    '06',
+    '08',
+    '10',
+    '12'
 ];
 
 var pjNameRowLeftHK = [
-    'TrustLand',
-    'Blockchain Credentials',
-    'Digital Entertainment industry benefited from blockchain',
-    'Imposter'
-
+    'Beacon Blockchain Group',
+    'i-Landy',
+    'Ukwazi',
+    'Khany'+"'"+'iSA: Illuminate South Africa',
+    'SmartLending',
+    'BCred: A Blockchain Platform for Academic Credential'
 ];
 
 var pjNameRowRightHK = [
-    'Ukwazi',
-    'Blockchain Health Pass',
+    'Spearchain',
+    'Blockchain Health Credentials',
+    'MicroCent',
+    'Blockchain-based Organizational Whistleblowing System (BOWS)',
+    'Ascension',
+    'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology'
+];
+
+var teamNameRowLeftHK = [
     'Beacon Blockchain Group',
-    'Bchain Network'
-];
-
-var imgLeftHK = [
-    'magic-chain/hkFlat.png'
-];
-
-var imgRightHK = [
-    'magic-chain/hkFlat.png'
-];
-
-// CN
-var teamIdForRowLeftCN = [
-    '222',
-    '223',
-    '224',
-    '225'
-];
-
-var teamIdForRowRightCN = [
-    '661',
-    '662',
-    '663',
-    '664'
-];
-
-var pjNameRowLeftCN = [
-    'TrustLand',
-    'Blockchain Credentials',
-    'Digital Entertainment industry benefited from blockchain',
-    'Imposter'
+    'i-Landy',
+    'Blockio',
+    'Lehlogonolo',
+    'Fintech Passionate',
+    'PChainx'
 
 ];
 
-var pjNameRowRightCN = [
-    'Ukwazi',
-    'Blockchain Health Pass',
-    'Beacon Blockchain Group',
-    'Bchain Network'
+var teamNameRowRightHK = [
+    'The Spearheads',
+    'Blockchain Health Credentials',
+    'MicroCent',
+    'WM',
+    'Ascension',
+    'TWOS'
 ];
+// HK
 
-var imgLeftCN = [
-    'team-x/cnFlat.png'
-];
-
-var imgRightCN = [
-    'team-x/cnFlat.png'
-];
 
 
 var finalists = document.getElementById('finalists');
 var hk = document.getElementById('hk');
+var bd = document.getElementById('bd');
 var cn = document.getElementById('cn');
 
 for (let i = 0; i < teamIdForRowLeftHK.length; i++) {
@@ -85,11 +68,12 @@ for (let i = 0; i < teamIdForRowLeftHK.length; i++) {
         '<div class="col-md-6 col-sm-12">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
-        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgLeftHK[0] + '" class="">' +
+        '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
-        '<div class="col-8 ">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowLeftHK[i] + '</b></p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team ' + teamIdForRowLeftHK[i] + '</p>' +
+        '<div class="col-8 my-auto">' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeftHK[i] + '</b> (HK-' + teamIdForRowLeft[i] +')</p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowLeftHK[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowLeftHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
         '</div>' +
         '</div>' +
@@ -98,11 +82,12 @@ for (let i = 0; i < teamIdForRowLeftHK.length; i++) {
         '<div class="col-md-6 col-sm-12">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
-        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgRightHK[0] + '" class="">' +
+        '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
-        '<div class="col-8">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowRightHK[i] + '</b></p>' +
-        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team ' + teamIdForRowRightHK[i] + '</p>' +
+        '<div class="col-8 my-auto">' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightHK[i] + '</b> (HK-' + teamIdForRowRight[i] +')</p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowRightHK[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowRightHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
         '</div>' +
         '</div>' +
@@ -112,37 +97,10 @@ for (let i = 0; i < teamIdForRowLeftHK.length; i++) {
 }
 
 
-for (let i = 0; i < teamIdForRowLeftCN.length; i++) {
-    cn.innerHTML += (
-        '<div class="row mt-4">' +
-        '<div class="col-md-6 col-sm-12">' +
-        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 ">' +
-        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgLeftCN[0] + '" class="">' +
-        '</div>' +
-        '<div class="col-8 ">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowLeftCN[i] + '</b></p>' +
-        '<p class="mx-0 my-0 fs-14 textBlack w-100"> Team ' + teamIdForRowLeftCN[i] + '</p>' +
-        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
 
-        '<div class="col-md-6 col-sm-12">' +
-        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 ">' +
-        '<img src="../2020EXPO/2020-IBCOL-Finalists/' + imgRightCN[0] + '" class="">' +
-        '</div>' +
-        '<div class="col-8">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + pjNameRowRightCN[i] + '</b></p>' +
-        '<p class="mx-0 my-0 fs-12 textBlack w-100"> Team ' + teamIdForRowRightCN[i] + '</p>' +
-        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
-        '</div>'
-    );
-}
+
+
+
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
