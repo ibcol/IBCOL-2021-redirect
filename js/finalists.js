@@ -41,7 +41,7 @@ var teamNameRowLeftHK = [
     'Blockio',
     'Lehlogonolo',
     'Fintech Passionate',
-    'PChainx'
+    'PChain'
 
 ];
 
@@ -134,6 +134,10 @@ var teamNameRowRightXX = [
 // XX
 
 
+
+
+var finalistsCountries = ['hk', 'bd'];
+
 var finalists = document.getElementById('finalists');
 var hk = document.getElementById('hk');
 var bd = document.getElementById('bd');
@@ -142,7 +146,7 @@ var bd = document.getElementById('bd');
 for (let i = 0; i < 6; i++) {
     hk.innerHTML += (
         '<div class="row mt-4">' +
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="col-md-6 col-sm-12" onclick="viewRepresentatives(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
@@ -156,7 +160,7 @@ for (let i = 0; i < 6; i++) {
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="col-md-6 col-sm-12" onclick="viewRepresentatives(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
@@ -209,7 +213,26 @@ for (let i = 0; i < 6; i++) {
 
 
 
+function viewRepresentatives(index) {
+    var teamNameHK = [
+        'Beacon Blockchain Group',
+        'The Spearheads',
+        'i-Landy',
+        'Blockchain Health Credentials',
+        'Blockio',
+        'MicroCent',
+        'Lehlogonolo',
+        'WM',
+        'Fintech Passionate',
+        'Ascension',
+        'PChain',
+        'TWOS'
+    ];
 
+    var target = teamNameHK[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/" + target + ".html");
+
+}
 
 
 

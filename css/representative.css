@@ -10,6 +10,14 @@
     align-items: center;
 }
 
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
 .teamId {
     margin-bottom: 16px;
     font-family: Montserrat;
@@ -40,7 +48,69 @@
 }
 
 .bold {
-
     font-weight: bold;
+}
+
+.right-sm-centre {
+text-align: right;
+}
+.left-sm-centre {
+text-align: left;
+}
+
+
+@media only screen and (max-width: 414px) {
+    .fs-sm-12 {
+        font-size: 12px !important;
+    }
+
+    .fs-sm-14 {
+        font-size: 14px !important;
+    }
+
+    .fs-sm-16 {
+        font-size: 16px !important;
+    }
+
+    .fs-sm-18 {
+        font-size: 18px !important;
+    }
+
+    .justify-sm {
+        text-align: justify !important;
+    }
 
 }
+
+@media only screen and (max-width: 600px) {
+
+    .fs-sm-28 {
+        font-size: 28px !important;
+    }
+
+    .fs-sm-24 {
+        font-size: 24px !important;
+    }
+
+    .fs-24-sm-18 {
+        font-size: 18px !important;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .right-sm-centre {
+        text-align: center !important;
+    }
+
+    .left-sm-centre {
+        text-align: center !important;
+    }
+}
+
+/* @media only screen and (max-width: 414px) {
+
+} */
