@@ -346,7 +346,7 @@ function viewRepresentativesTW(index) {
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
-    var showArr = ['hk', 'bd', 'tw'];
+    var showArr = ['hk', 'bd', 'tw', 'cn'];
     var selectedVal = sel.options[sel.selectedIndex].value;
 
     if (selectedVal === 'all') {
