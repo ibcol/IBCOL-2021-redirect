@@ -95,6 +95,46 @@ var teamNameRowRightBD = [
 // BD
 
 
+
+// TW - templates
+var pjNameRowLeftTW = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
+];
+
+var pjNameRowRightTW = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
+];
+
+var teamNameRowLeftTW = [
+    'Researchain',
+    'xxx',
+    'xxx',
+    'xxx',
+    'xxx',
+    'xxx'
+];
+
+var teamNameRowRightTW = [
+    '交大科法VeriRx Network',
+    'xxx',
+    'xxx',
+    'xxx',
+    'xxx',
+    'xxx'
+];
+// TW
+
+
 // XX - templates
 var pjNameRowLeftXX = [
     '',
@@ -136,11 +176,12 @@ var teamNameRowRightXX = [
 
 
 
-var finalistsCountries = ['hk', 'bd'];
+var finalistsCountries = ['hk', 'bd','tw'];
 
 var finalists = document.getElementById('finalists');
 var hk = document.getElementById('hk');
 var bd = document.getElementById('bd');
+var tw = document.getElementById('tw');
 // var cn = document.getElementById('cn');
 
 for (let i = 0; i < 6; i++) {
@@ -166,7 +207,7 @@ for (let i = 0; i < 6; i++) {
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto">' +
-        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightHK[i] + '</b> (BD-' + teamIdForRowRight[i] + ')</p>' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightHK[i] + '</b> (HK-' + teamIdForRowRight[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowRightHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowRightHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
@@ -211,6 +252,40 @@ for (let i = 0; i < 6; i++) {
     );
 }
 
+for (let i = 0; i < 1; i++) {
+    tw.innerHTML += (
+        '<div class="row mt-4">' +
+        '<div class="col-md-6 col-sm-12">' +
+        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+        '<div class="col-4 ">' +
+        '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
+        '</div>' +
+        '<div class="col-8 my-auto">' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeftTW[i] + '</b> (TW-' + teamIdForRowLeft[i] + ')</p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowLeftTW[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowLeftHK[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowLeft[i]+'</p>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+
+        '<div class="col-md-6 col-sm-12">' +
+        '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
+        '<div class=" col-4 ">' +
+        '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
+        '</div>' +
+        '<div class="col-8 my-auto">' +
+        '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightTW[i] + '</b> (TW-' + teamIdForRowRight[i] + ')</p>' +
+        '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowRightTW[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowRightHK[i] + '</p>' +
+        // '<p class="mx-0 my-0 fs-12 textBlack w-100">'+uniRowRight[i]+'</p>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '</div>'
+    );
+}
+
 
 
 function viewRepresentatives(index) {
@@ -238,7 +313,7 @@ function viewRepresentatives(index) {
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
-    var showArr = ['hk', 'bd'];
+    var showArr = ['hk', 'bd', 'tw'];
     var selectedVal = sel.options[sel.selectedIndex].value;
 
     if (selectedVal === 'all') {
