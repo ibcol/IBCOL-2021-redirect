@@ -116,21 +116,12 @@ var pjNameRowRightTW = [
 ];
 
 var teamNameRowLeftTW = [
-    'Researchain',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx'
+    'Researchain'
+
 ];
 
 var teamNameRowRightTW = [
-    'VeriRx Network',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx'
+    'VeriRx Network'
 ];
 // TW
 
@@ -215,7 +206,7 @@ for (let i = 0; i < 6; i++) {
 for (let i = 0; i < 6; i++) {
     bd.innerHTML += (
         '<div class="row mt-4">' +
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="col-md-6 col-sm-12"  style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
@@ -229,7 +220,7 @@ for (let i = 0; i < 6; i++) {
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="col-md-6 col-sm-12"  style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
@@ -249,7 +240,7 @@ for (let i = 0; i < 6; i++) {
 for (let i = 0; i < 1; i++) {
     tw.innerHTML += (
         '<div class="row mt-4">' +
-        '<div class="col-md-6 col-sm-12">' +
+        '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTW(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
@@ -263,7 +254,8 @@ for (let i = 0; i < 1; i++) {
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12">' +
+
+        '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTW(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
@@ -340,8 +332,17 @@ function viewRepresentativesHK(index) {
     ];
     var target = teamNameHK[index - 1];
     window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/" + target + ".html");
-
 }
+
+function viewRepresentativesTW(index) {
+    var teamNameTW = [
+        'Researchain',
+        'VeriRx Network'
+    ];
+    var target = teamNameTW[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/" + target + ".html");
+}
+
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
