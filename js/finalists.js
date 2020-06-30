@@ -125,7 +125,7 @@ var teamNameRowLeftTW = [
 ];
 
 var teamNameRowRightTW = [
-    '交大科法VeriRx Network',
+    'VeriRx Network',
     'xxx',
     'xxx',
     'xxx',
@@ -135,59 +135,53 @@ var teamNameRowRightTW = [
 // TW
 
 
-// XX - templates
-var pjNameRowLeftXX = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+// CN - templates
+
+var teamIdForRowCN = [
+    ['01', '02'],
+    ['03', '04'],
+    ['05', '']
 ];
 
-var pjNameRowRightXX = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+
+var pjNameRowCN = [
+    ['', ''],
+    ['', ''],
+    ['', '']
 ];
 
-var teamNameRowLeftXX = [
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx'
+
+var teamNameRowCN = [
+    ['Support X',
+        'PracticeTogether',
+    ],
+    ['Carbonbase',
+        'LifeBlock'
+    ],
+    ['Golden Pear',
+        ''
+    ]
 ];
 
-var teamNameRowRightXX = [
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx',
-    'xxx'
-];
-// XX
+// CN
 
 
 
 
-var finalistsCountries = ['hk', 'bd','tw'];
+
+
+var finalistsCountries = ['hk', 'bd', 'tw', 'cn'];
 
 var finalists = document.getElementById('finalists');
 var hk = document.getElementById('hk');
 var bd = document.getElementById('bd');
 var tw = document.getElementById('tw');
-// var cn = document.getElementById('cn');
+var cn = document.getElementById('cn');
 
 for (let i = 0; i < 6; i++) {
     hk.innerHTML += (
         '<div class="row mt-4">' +
-        '<div class="col-md-6 col-sm-12" onclick="viewRepresentatives(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
+        '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
@@ -201,7 +195,7 @@ for (let i = 0; i < 6; i++) {
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12" onclick="viewRepresentatives(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
+        '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
@@ -287,8 +281,49 @@ for (let i = 0; i < 1; i++) {
 }
 
 
+for (let i = 0; i <= Math.ceil(teamNameRowCN.length / 2); i++) {
+    cn.innerHTML += (
+        '<div class="row mt-4" id="cnRow' + i + '">' +
+        '</div>'
+    );
 
-function viewRepresentatives(index) {
+    var cnRowX = document.getElementById('cnRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowCN[i][j] === '') {} else {
+            // console.log(teamIdForRowCN[i][j]);
+            cnRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCN(' + teamIdForRowCN[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/cnFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowCN[i][j] + '</b> (CN-' + teamIdForRowCN[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowCN[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+function viewRepresentativesCN(index) {
+    console.log('index: ' + index);
+
+    var teamNameCN = [
+        'Support X',
+        'PracticeTogether',
+        'Carbonbase',
+        'LifeBlock',
+        'Golden Pear',
+    ];
+
+    var target = teamNameCN[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/" + target + ".html");
+}
+
+function viewRepresentativesHK(index) {
     var teamNameHK = [
         'Beacon Blockchain Group',
         'The Spearheads',
@@ -303,13 +338,10 @@ function viewRepresentatives(index) {
         'PChain',
         'TWOS'
     ];
-
     var target = teamNameHK[index - 1];
     window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/" + target + ".html");
 
 }
-
-
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
