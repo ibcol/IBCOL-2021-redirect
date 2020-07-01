@@ -806,7 +806,7 @@ function viewRepresentativesBD(index) {
     // if (target === 'WEIB_3:1') {
     //     target = 'WEIB_3/1'
     // }
-    window.open("../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/" + target + ".html");
+    window.open("../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesCN(index) {
@@ -821,7 +821,7 @@ function viewRepresentativesCN(index) {
     ];
 
     var target = teamNameCN[index - 1];
-    window.open("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/" + target + ".html");
+    window.open("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesHK(index) {
@@ -840,7 +840,7 @@ function viewRepresentativesHK(index) {
         'TWOS'
     ];
     var target = teamNameHK[index - 1];
-    window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/" + target + ".html");
+    window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesTW(index) {
@@ -849,7 +849,7 @@ function viewRepresentativesTW(index) {
         'VeriRx Network'
     ];
     var target = teamNameTW[index - 1];
-    window.open("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/" + target + ".html");
+    window.open("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/index.html");
 }
 
 
