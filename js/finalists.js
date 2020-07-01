@@ -161,6 +161,8 @@ var teamNameRowCN = [
 
 
 
+
+
 var finalistsCountries = ['hk', 'bd', 'tw', 'cn'];
 
 var finalists = document.getElementById('finalists');
@@ -206,7 +208,7 @@ for (let i = 0; i < 6; i++) {
 for (let i = 0; i < 6; i++) {
     bd.innerHTML += (
         '<div class="row mt-4">' +
-        '<div class="col-md-6 col-sm-12"  style="cursor:pointer">' +
+        '<div class="col-md-6 col-sm-12"  onclick="viewRepresentativesBD(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
@@ -220,7 +222,7 @@ for (let i = 0; i < 6; i++) {
         '</div>' +
         '</div>' +
 
-        '<div class="col-md-6 col-sm-12"  style="cursor:pointer">' +
+        '<div class="col-md-6 col-sm-12"  onclick="viewRepresentativesBD(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class=" col-4 ">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
@@ -300,8 +302,34 @@ for (let i = 0; i <= Math.ceil(teamNameRowCN.length / 2); i++) {
     }
 }
 
+function viewRepresentativesBD(index) {
+    // console.log('index: ' + index);
+
+    var teamNameBD = [
+        'Hyperactive Oranges',
+        'Team Leads Chain',
+        'DU_Nimbus',
+        'Team Digital Innovation',
+        'TORR',
+        'WEIB_3:1',
+        'Brogrammers',
+        'Aviato',
+        'DU_Hyperledger',
+        'Cosmic Crew',
+        'Code Nine BD',
+        'BUET_SKAMmers_1'
+    ];
+
+    var target = teamNameBD[index - 1];
+
+    // if (target === 'WEIB_3:1') {
+    //     target = 'WEIB_3/1'
+    // }
+    window.open("../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/" + target + ".html");
+}
+
 function viewRepresentativesCN(index) {
-    console.log('index: ' + index);
+    // console.log('index: ' + index);
 
     var teamNameCN = [
         'Support X',
