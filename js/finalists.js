@@ -374,11 +374,11 @@ function viewRepresentativesTW(index) {
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
-    var showArr = ['hk', 'bd', 'tw', 'cn'];
+    var showArr = ['bd', 'ca', 'cn', 'es', 'hk', 'mn', 'ph', 'pl', 'th', 'tr', 'tw', 'uk', 'us', 'vn'];
     var selectedVal = sel.options[sel.selectedIndex].value;
 
     if (selectedVal === 'all') {
-        console.log('x');
+        // console.log('x');
         for (let i = 0; i < showArr.length; i++) {
             document.getElementById(showArr[i]).style.display = "block";
         }
@@ -386,7 +386,7 @@ function listCh(sel) {
     }
 
     for (let i = 0; i < showArr.length; i++) {
-        if (selectedVal !== showArr[i]) {
+        if (selectedVal != showArr[i]) {
             document.getElementById(showArr[i]).style.display = "none";
         }
         if (selectedVal === showArr[i]) {
