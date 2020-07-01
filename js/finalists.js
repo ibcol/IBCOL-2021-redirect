@@ -645,7 +645,7 @@ for (let i = 0; i < 1; i++) {
     }
 }
 
-for (let i = 0; i <= 1; i++) {
+for (let i = 0; i <= 2; i++) {
     pl.innerHTML += (
         '<div class="row mt-4" id="plRow' + i + '">' +
         '</div>'
@@ -843,6 +843,19 @@ function viewRepresentativesHK(index) {
     window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/" + target + ".html");
 }
 
+function viewRepresentativesPL(index) {
+    var teamNamePL = [
+        'E-stamp',
+        'E-voting for universities',
+        'Simple Joint-Stock Company',
+        'Performance data analysis in sport on the example of the Olympic boxing',
+        'Legal approvement of electronic agreements',
+        'Censorship resistant text messages'
+    ];
+    var target = teamNamePL[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html");
+}
+
 function viewRepresentativesTW(index) {
     var teamNameTW = [
         'Researchain',
@@ -852,6 +865,15 @@ function viewRepresentativesTW(index) {
     window.open("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/" + target + ".html");
 }
 
+function viewRepresentativesVN(index) {
+    var teamNameVN = [
+        'Bchain',
+        'HebiLife',
+        'Tokenbot ai'
+    ];
+    var target = teamNameVN[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html");
+}
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
