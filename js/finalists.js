@@ -831,7 +831,7 @@ function viewRepresentativesHK(index) {
         'i-Landy',
         'Blockchain Health Credentials',
         'Blockio',
-        'MicroCent',
+        'Microcent',
         'Lehlogonolo',
         'WM',
         'Fintech Passionate',
