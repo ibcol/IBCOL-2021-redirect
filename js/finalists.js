@@ -16,6 +16,25 @@ var teamIdForRowRight = [
     '12'
 ];
 
+// CA - templates
+var teamIdForRowCA = [
+    ['01', '02']
+];
+
+
+var pjNameRowCA = [
+    ['', '']
+];
+
+
+var teamNameRowCA = [
+    ['Blossom Block',
+        'Rumi'
+    ]
+
+];
+// CA
+
 // HK
 var pjNameRowLeftHK = [
     'Beacon Blockchain Group',
@@ -127,7 +146,6 @@ var teamNameRowRightTW = [
 
 
 // CN - templates
-
 var teamIdForRowCN = [
     ['01', '02'],
     ['03', '04'],
@@ -144,7 +162,7 @@ var pjNameRowCN = [
 
 var teamNameRowCN = [
     ['Support X',
-        'PracticeTogether',
+        'PracticeTogether'
     ],
     ['Carbonbase',
         'LifeBlock'
@@ -153,23 +171,241 @@ var teamNameRowCN = [
         ''
     ]
 ];
-
 // CN
 
 
 
+// PL - templates
+var teamIdForRowPL = [
+    ['01', '02'],
+    ['03', '04'],
+    ['05', '06']
+];
+
+
+var pjNameRowPL = [
+    ['', ''],
+    ['', ''],
+    ['', '']
+];
+
+
+var teamNameRowPL = [
+    ['E-stamp',
+        'E-voting for universities'
+    ],
+    ['Simple Joint-Stock Company',
+        'Performance data analysis in sport on the example of the Olympic boxing'
+    ],
+    ['Legal approvement of electronic agreements',
+        'Censorship resistant text messages'
+    ]
+];
+// PL
+
+// PH - templates
+var teamIdForRowPH = [
+    ['01', '02'],
+    ['03', '04']
+];
+
+
+var pjNameRowPH = [
+    ['', ''],
+    ['', '']
+];
+
+
+var teamNameRowPH = [
+    ['Timeswap',
+        'Christine'
+    ],
+    ['Mamay',
+        'GOMO'
+    ]
+
+];
+// PH
+
+
+
+// MN - templates
+var teamIdForRowMN = [
+    ['01', '']
+];
+
+
+var pjNameRowMN = [
+    ['', '']
+];
+
+
+var teamNameRowMN = [
+    ['AutoChain',
+        ''
+    ]
+];
+// MN
+
+// UK - templates
+var teamIdForRowUK = [
+    ['01', '']
+];
+
+
+var pjNameRowUK = [
+    ['', '']
+];
+
+
+var teamNameRowUK = [
+    ['Track Your Food',
+        ''
+    ]
+];
+// UK
+
+// ES - templates
+var teamIdForRowES = [
+    ['01', '']
+];
+
+
+var pjNameRowES = [
+    ['', '']
+];
+
+
+var teamNameRowES = [
+    ['ACLI',
+        ''
+    ]
+];
+// ES
+
+
+// US - templates
+var teamIdForRowUS = [
+    ['01', '02'],
+    ['03', '']
+];
+
+
+var pjNameRowUS = [
+    ['', ''],
+    ['', '']
+];
+
+
+var teamNameRowUS = [
+    ['Meld Exchange (MeldX)',
+        'Avalanche'
+    ],
+    ['AlliedFund',
+        ''
+    ]
+];
+// US
+
+// TR - templates
+var teamIdForRowTR = [
+    ['01', '']
+];
+
+
+var pjNameRowTR = [
+    ['', '']
+];
+
+
+var teamNameRowTR = [
+    ['LightChain',
+        ''
+    ]
+];
+// TR
+
+// TH - templates
+var teamIdForRowTH = [
+    ['01', '']
+];
+
+
+var pjNameRowTH = [
+    ['', '']
+];
+
+
+var teamNameRowTH = [
+    ['traffic-evidence-group',
+        ''
+    ]
+];
+// TH
+
+
+
+// VN - templates
+var teamIdForRowVN = [
+    ['01', '02'],
+    ['03', '']
+];
+
+
+var pjNameRowVN = [
+    ['', ''],
+    ['', '']
+];
+
+
+var teamNameRowVN = [
+    ['Bchain',
+        'HebiLife'
+    ],
+    ['Tokenbot.ai',
+        ''
+    ]
+
+];
+// VN
 
 
 
 
+// var finalistsCountries = ['hk', 'bd', 'tw', 'cn'];
 
-var finalistsCountries = ['hk', 'bd', 'tw', 'cn'];
+// var finalists = document.getElementById('finalists');
+// var hk = document.getElementById('hk');
+// var bd = document.getElementById('bd');
+// var tw = document.getElementById('tw');
+// var cn = document.getElementById('cn');
 
-var finalists = document.getElementById('finalists');
-var hk = document.getElementById('hk');
-var bd = document.getElementById('bd');
-var tw = document.getElementById('tw');
-var cn = document.getElementById('cn');
+for (let i = 0; i < 1; i++) {
+    ca.innerHTML += (
+        '<div class="row mt-4" id="caRow' + i + '">' +
+        '</div>'
+    );
+
+    var caRowX = document.getElementById('caRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowCA[i][j] === '') {} else {
+            caRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCA(' + teamIdForRowCA[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/caFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowCA[i][j] + '</b> (CA-' + teamIdForRowCA[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowCA[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
 
 for (let i = 0; i < 6; i++) {
     hk.innerHTML += (
@@ -285,7 +521,6 @@ for (let i = 0; i <= Math.ceil(teamNameRowCN.length / 2); i++) {
 
     for (let j = 0; j <= 1; j++) {
         if (teamNameRowCN[i][j] === '') {} else {
-            // console.log(teamIdForRowCN[i][j]);
             cnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCN(' + teamIdForRowCN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
@@ -301,6 +536,252 @@ for (let i = 0; i <= Math.ceil(teamNameRowCN.length / 2); i++) {
         }
     }
 }
+
+
+
+
+for (let i = 0; i <= 1; i++) {
+    ph.innerHTML += (
+        '<div class="row mt-4" id="phRow' + i + '">' +
+        '</div>'
+    );
+
+    var phRowX = document.getElementById('phRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowPH[i][j] === '') {} else {
+            phRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesPH(' + teamIdForRowPH[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/phFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowPH[i][j] + '</b> (PH-' + teamIdForRowPH[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowPH[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+
+for (let i = 0; i < 1; i++) {
+    mn.innerHTML += (
+        '<div class="row mt-4" id="mnRow' + i + '">' +
+        '</div>'
+    );
+
+    var mnRowX = document.getElementById('mnRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowMN[i][j] === '') {} else {
+            mnRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesMN(' + teamIdForRowMN[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/mnFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowMN[i][j] + '</b> (MN-' + teamIdForRowMN[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowMN[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i < 1; i++) {
+    es.innerHTML += (
+        '<div class="row mt-4" id="esRow' + i + '">' +
+        '</div>'
+    );
+
+    var esRowX = document.getElementById('esRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowES[i][j] === '') {} else {
+            esRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesES(' + teamIdForRowES[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/esFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowES[i][j] + '</b> (ES-' + teamIdForRowES[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowES[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i < 1; i++) {
+    uk.innerHTML += (
+        '<div class="row mt-4" id="ukRow' + i + '">' +
+        '</div>'
+    );
+
+    var ukRowX = document.getElementById('ukRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowUK[i][j] === '') {} else {
+            ukRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesUK(' + teamIdForRowUK[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/ukFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowUK[i][j] + '</b> (UK-' + teamIdForRowUK[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowUK[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i <= 1; i++) {
+    pl.innerHTML += (
+        '<div class="row mt-4" id="plRow' + i + '">' +
+        '</div>'
+    );
+
+    var plRowX = document.getElementById('plRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowPL[i][j] === '') {} else {
+            plRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesPL(' + teamIdForRowPL[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/plFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowPL[i][j] + '</b> (PL-' + teamIdForRowPL[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowPL[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i <= 1; i++) {
+    us.innerHTML += (
+        '<div class="row mt-4" id="usRow' + i + '">' +
+        '</div>'
+    );
+
+    var usRowX = document.getElementById('usRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowUS[i][j] === '') {} else {
+            usRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesUS(' + teamIdForRowUS[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/usFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowUS[i][j] + '</b> (US-' + teamIdForRowUS[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowUS[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i < 1; i++) {
+    tr.innerHTML += (
+        '<div class="row mt-4" id="trRow' + i + '">' +
+        '</div>'
+    );
+
+    var trRowX = document.getElementById('trRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowTR[i][j] === '') {} else {
+            trRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTR(' + teamIdForRowTR[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/trFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowTR[i][j] + '</b> (TR-' + teamIdForRowTR[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowTR[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i < 1; i++) {
+    th.innerHTML += (
+        '<div class="row mt-4" id="thRow' + i + '">' +
+        '</div>'
+    );
+
+    var thRowX = document.getElementById('thRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowTH[i][j] === '') {} else {
+            thRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTH(' + teamIdForRowTH[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/thFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowTH[i][j] + '</b> (TH-' + teamIdForRowTH[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowTH[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i <= 1; i++) {
+    vn.innerHTML += (
+        '<div class="row mt-4" id="vnRow' + i + '">' +
+        '</div>'
+    );
+
+    var vnRowX = document.getElementById('vnRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowVN[i][j] === '') {} else {
+            vnRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesVN(' + teamIdForRowVN[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 ">' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/vnFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowVN[i][j] + '</b> (VN-' + teamIdForRowVN[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowVN[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+
+
+
+
+
+
+
 
 function viewRepresentativesBD(index) {
     // console.log('index: ' + index);
