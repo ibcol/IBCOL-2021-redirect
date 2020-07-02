@@ -150,22 +150,40 @@ var teamNameRowES = [
 
 
 // HK
+// var pjNameRowLeftHK = [
+//     'Beacon Blockchain Group',
+//     'i-Landy',
+//     'Ukwazi',
+//     'Khany' + "'" + 'iSA: Illuminate South Africa',
+//     'SmartLending',
+//     'BCred: A Blockchain Platform for Academic Credential'
+// ];
+
+// var pjNameRowRightHK = [
+//     'Spearchain',
+//     'Blockchain Health Credentials',
+//     'MicroCent',
+//     'Blockchain-based Organizational Whistleblowing System (BOWS)',
+//     'Ascension',
+//     'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology'
+// ];
+
 var pjNameRowLeftHK = [
-    'Beacon Blockchain Group',
-    'i-Landy',
-    'Ukwazi',
-    'Khany' + "'" + 'iSA: Illuminate South Africa',
-    'SmartLending',
-    'BCred: A Blockchain Platform for Academic Credential'
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
 ];
 
 var pjNameRowRightHK = [
-    'Spearchain',
-    'Blockchain Health Credentials',
-    'MicroCent',
-    'Blockchain-based Organizational Whistleblowing System (BOWS)',
-    'Ascension',
-    'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology'
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
 ];
 
 var teamNameRowLeftHK = [
