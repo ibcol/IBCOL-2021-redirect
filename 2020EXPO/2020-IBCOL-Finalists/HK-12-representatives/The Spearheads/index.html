@@ -33,10 +33,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../../../js/function.js"></script>
-
-    <script>
-
-    </script>
 </head>
 
 <body id="top">
@@ -112,15 +108,16 @@
             <div class="row my-4">
                 <div class="col-md-6 col-sm-12 px-0 ">
                     <div class="w-100 left-sm-centre mb-4">
-                        <img src="../../../../images/2020-IBCOL-Finalists/flat/hkFlat.png" class="my-2">
+                        <img src="" id="flag" class="my-2">
                     </div>
 
                     <div class="w-100 left-sm-centre">
-                        <p class="teamName w-100 mb-0 fs-36 fs-sm-18">The Spearheads
+                        <p class="teamName w-100 mb-0 fs-36 fs-sm-18" id="teamName">
+
                         </p>
-                        <p class="teamId w-100 mb-0 fs-24 fs-sm-16"> <b>Spearchain</b>
+                        <p class="teamId w-100 mb-0 fs-24 fs-sm-16"> <b id="pjName"></b>
                         </p>
-                        <p class="teamId w-100 mb-0 fs-20 fs-sm-14">The Hong Kong University of Science and Technology
+                        <p class="teamId w-100 mb-0 fs-20 fs-sm-14" id="uniName">
                         </p>
                     </div>
 
@@ -132,7 +129,7 @@
                     </div>
 
                     <div class="w-100 right-sm-centre">
-                        <img src="../../../../images/2020-IBCOL-Finalists/uni/hkust246.png" class="my-2">
+                        <img src="" id="uniLogo" class="my-2">
                     </div>
 
                 </div>
@@ -144,55 +141,12 @@
                     <p class="pjDesc w-100">Project Description</p>
                 </div>
 
-                <p class="justify textBlack">
-                    Our team proposes a project idea named “Spearchain”, which is a track-and-trace platform that aims
-                    to leverage blockchain together with other technologies to oversee the delivery process of
-                    medication donations. By taking on the features of blockchain that it is decentralized, verifiable,
-                    immutable, and traceable, we are confident that our project could help diminish the corruption
-                    problem in the charity sector.
+                <p class="justify textBlack" id="pjDesc">
 
                 </p>
 
 
-                <p class="justify textBlack">
-                    A host of medical equipment manufacturers, healthcare products distributors, and the pharmaceutical
-                    companies donate medical materials to hospitals via non-governmental organizations (NGOs) and
-                    charities regularly. However, there is a severe corruption problem in the philanthropy sector. There
-                    are many cases seen that civil society organizations are unable to obtain offerings. An example can
-                    be seen from several years ago when the Haiti Earthquake happened, fundraising and supplies
-                    collections actions were immediately taken. Nevertheless, a substantial portion of the US relief
-                    operation went through American instead of Haiti-owned companies.
-                </p>
 
-
-                <p class="justify textBlack">
-                    In order to enhance the transparency of the medical donation delivery process, we intend to partner
-                    with donors, NGOs, recipients, regulators, and technological companies. The mechanism of Spearchain
-                    is simple that when donors plan to donate pharmaceutical equipment, we will provide our “smart
-                    boxes”, which have internally-installed sensors to store and encrypt their supplies. The sensors can
-                    detect the locations and storage conditions of items, as well as upload the information onto our
-                    cloud system. If the sensors spot any abnormal situations, they will transmit and save the data onto
-                    our blockchain platform. In this way, all the related system users can view and access the data.
-                    Receiving health supplies, recipients need to decrypt the boxes by using private keys. Following
-                    that, the transactions will complete, the smart contracts will be terminated and recorded on the
-                    blockchain system. We acquire revenue by charging donors annual platform subscription fees.
-
-                </p>
-
-                <p class="justify textBlack">
-                    It is anticipated that our project can help identify corruption cases and underhand dealings easily
-                    and quickly. Because the whole delivery process is transparent, visible, and decentralized, our
-                    system will hopefully ensure that the in-kind offers are donated to intended recipients, escalating
-                    donors' confidence to donate supplies. Meanwhile, we aim to promote responsibility among NGOs since
-                    they now know that they cannot get away with unethical dealings. It is believed that our project is
-                    not only feasible but also meaningful.
-                </p>
-
-                <p class="justify textBlack">
-                    This whitepaper covers the vision and opportunity, market analysis, partners, competitors, potential
-                    risks and solutions, technology and architecture, governance, value proposition, distribution, and
-                    conclusion.
-                </p>
 
                 <!-- </div> -->
             </div>
@@ -205,18 +159,8 @@
 
                 <div class="row mx-auto w-100 centre">
                     <div class="col-md-2 col-sm-12 py-0">
-                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/oneMinIntro.png" class="mediaImg2">
-                        <p class="bold"><a href="" id="oneMinIntro" target="blank" style="all:unset;" download>1-min intro</a></p>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12 py-0">
                         <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/posterPDF.png" class="mediaImg2">
                         <p class="bold"><a href="" id="posterPDF" target="blank" style="all:unset;" download>Poster PDF</a></p>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12 py-0">
-                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/pitchvideo.png" class="mediaImg2">
-                        <p class="bold"><a href="" id="pitchVideo" target="blank" style="all:unset;" download>Pitch video</a></p>
                     </div>
 
                     <div class="col-md-2 col-sm-12 py-0">
@@ -225,9 +169,20 @@
                     </div>
 
                     <div class="col-md-2 col-sm-12 py-0">
+                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/pitchvideo.png" class="mediaImg2">
+                        <p class="bold"><a href="" id="pitchVideo" target="blank" style="all:unset;" download>Pitch video</a></p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12 py-0">
                         <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/demoVideo.png" class="mediaImg2">
                         <p class="bold"><a href="" id="demoVideo" target="blank" style="all:unset;" download>Demo video</a></p>
                     </div>
+
+                    <div class="col-md-2 col-sm-12 py-0">
+                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/oneMinIntro.png" class="mediaImg2">
+                        <p class="bold"><a href="" id="oneMinIntro" target="blank" style="all:unset;" download>1-min intro</a></p>
+                    </div>
+
                 </div>
             </div>
 
@@ -237,120 +192,12 @@
                     <h2 style="all:unset;">TEAM MEMBERS</h2>
                 </div>
 
-
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team118_Andrew Kong Mang Yat - choi cherry.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b> Andrew Kong</b>
-                                </p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The Hong Kong University of Science and Technology</b>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team118_Choi Hiu Tung Cherry - choi cherry.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b>Cherry Choi</b>
-                                </p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The Hong Kong University of Science and Technology</b>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team118_Choi Ting Fung Alco - choi cherry.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b>Alco Choi</b>
-                                </p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The Hong Kong University of Science and Technology</b>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team118_Ma Chun Ho Bjorn - choi cherry.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b>Bjorn Ma</b>
-                                </p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The Hong Kong University of Science and Technology</b>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team118_Mok Ka Lam Kevin - choi cherry.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b>Kevin Mok</b>
-                                </p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The Hong Kong University of Science and Technology</b>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team118_Tam Nga Man Farah - choi cherry.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b>Farah Nga</b>
-                                </p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The Hong Kong University of Science and Technology</b>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+                <div class="row w-100" id="teamMembers"></div>
             </div>
 
 
 
     </section>
-
-
 
     <!-- <div class="row centre">
         <p class="w-100"> Learn more about this project straight from the team themselves</p>
@@ -428,10 +275,67 @@
 
     <!-- Java Script
         ================================================== -->
+    <script src="../../../.././js/representativesInfoGenerator.js"></script>
     <script src="../../../.././js/jquery-3.2.1.min.js"></script>
     <script src="../../../.././js/plugins.js"></script>
     <script src="../../../.././js/main.js"></script>
     <script src="../../../.././js/function.js"></script>
-</body>
 
-</html>
+    <script>
+        var myObj = "";
+        myObj = {
+            "teamMembersInfo": [
+                {
+                    "name": "Alco Choi",
+                    "uni": "City University of Hong Kong",
+                    "img": "./Alco Choi.png"
+                },
+                {
+                    "name": "Andrew Kong",
+                    "uni": "The Hong Kong University of Science and Technology",
+                    "img": "./Andrew Kong.png"
+                },
+                {
+                    "name": "Bjorn Ma",
+                    "uni": "The Hong Kong University of Science and Technology",
+                    "img": "./Bjorn Ma.png"
+                },
+
+                {
+                    "name": "Cherry Choi",
+                    "uni": "The Hong Kong University of Science and Technology",
+                    "img": "./Cherry Choi.png"
+                },
+                {
+                    "name": "Farah Tam",
+                    "uni": "The Hong Kong University of Science and Technology",
+                    "img": "./Farah Tam.png"
+                },
+                {
+                    "name": "Kevin Mok",
+                    "uni": "The Hong Kong University of Science and Technology",
+                    "img": "./Kevin Mok.png"
+                },
+            ],
+            "media": {
+                "posterPDF": "",
+                "pitchPDF": "",
+                "pitchVideo": "",
+                "demoVideo": "",
+                "oneMinIntro": ""
+            },
+            "pjInfo": {
+                "pjDesc": "Medical donations save lives all over the world. They are the foundation of many underprivileged countries’ healthcare systems and are the key that cures people and keeps people from dying. Despite its significance, immoral parties like some NGOs prey on the lucrative donations. This puts our world into a vicious cycle: fewer people are helped, even fewer are encouraged to donate. This is why Spearchain exists. We want to provide a transparent track-and-trace platform for monitoring medical donation whilst fighting NGO corruption. Leveraging technologies like Blockchain, IoT, and Cloud Computing, Spearchain revolutionizes how medical supplies are donated, ultimately helps the intended recipients."
+            },
+            "teamInfo": {
+                "pjName": "Spearchain",
+                "uniName": "The Hong Kong University of Science and Technology",
+                "teamName": "The Spearheads",
+                "uniLogo": "../../../../images/2020-IBCOL-Finalists/uni/hk/hkust246.png"
+            },
+            "flag": "../../../../images/2020-IBCOL-Finalists/flat/hkFlag.png"
+
+
+        };
+        genRepInfoFromJson(myObj);
+    </script>

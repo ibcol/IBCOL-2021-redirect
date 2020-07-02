@@ -170,7 +170,7 @@ var teamNameRowLeftHK = [
     'Beacon Blockchain Group',
     'i-Landy',
     'Blockio',
-    'Lehlogonolo',
+    'Khany\'iSA',
     'Fintech Passionate',
     'PChain'
 
@@ -434,7 +434,7 @@ for (let i = 0; i < 6; i++) {
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
         '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
-        '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
+        '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlag.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto ">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeftHK[i] + '</b> (HK-' + teamIdForRowLeft[i] + ')</p>' +
@@ -448,7 +448,7 @@ for (let i = 0; i < 6; i++) {
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
         '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
-        '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
+        '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlag.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto ">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightHK[i] + '</b> (HK-' + teamIdForRowRight[i] + ')</p>' +
@@ -853,7 +853,7 @@ function viewRepresentativesHK(index) {
         'Blockchain Health Credentials',
         'Blockio',
         'Microcent',
-        'Lehlogonolo',
+        'Khany\'iSA',
         'WM',
         'Fintech Passionate',
         'Ascension',
