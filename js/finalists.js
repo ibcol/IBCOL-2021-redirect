@@ -896,6 +896,15 @@ function viewRepresentativesVN(index) {
     window.open("../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html");
 }
 
+function viewRepresentativesUS(index) {
+    var teamNameUS = [
+        'Meld Exchange (MeldX)',
+        'Avalanche',
+        'AlliedFund'
+    ];
+    var target = teamNameUS[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/US-12-representatives/" + target + "/index.html");
+}
 
 
 
