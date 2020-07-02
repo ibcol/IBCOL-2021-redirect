@@ -199,7 +199,7 @@ var pjNameRowMN = [
 
 
 var teamNameRowMN = [
-    ['AutoChain',
+    ['Unilock Team',
         ''
     ]
 ];
@@ -863,6 +863,15 @@ function viewRepresentativesHK(index) {
     var target = teamNameHK[index - 1];
     window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/index.html");
 }
+
+function viewRepresentativesMN(index) {
+    var teamNameMN = [
+        'Unilock Team'
+    ];
+    var target = teamNameMN[index - 1];
+    window.open("../2020EXPO/2020-IBCOL-Finalists/MN-12-representatives/" + target + "/index.html");
+}
+
 
 function viewRepresentativesPL(index) {
     var teamNamePL = [
