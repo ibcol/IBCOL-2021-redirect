@@ -393,10 +393,10 @@ for (let i = 0; i < 1; i++) {
             caRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCA(' + teamIdForRowCA[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/caFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowCA[i][j] + '</b> (CA-' + teamIdForRowCA[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowCA[i][j] + '</p>' +
                 '</div>' +
@@ -412,10 +412,10 @@ for (let i = 0; i < 6; i++) {
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 ">' +
+        '<div class="col-4 pr-0">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
-        '<div class="col-8 my-auto">' +
+        '<div class="col-8 my-auto pl-3">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeftHK[i] + '</b> (HK-' + teamIdForRowLeft[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowLeftHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowLeftHK[i] + '</p>' +
@@ -426,10 +426,10 @@ for (let i = 0; i < 6; i++) {
 
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 ">' +
+        '<div class=" col-4 pr-0">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
-        '<div class="col-8 my-auto">' +
+        '<div class="col-8 my-auto pl-3">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightHK[i] + '</b> (HK-' + teamIdForRowRight[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowRightHK[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowRightHK[i] + '</p>' +
@@ -446,10 +446,10 @@ for (let i = 0; i < 6; i++) {
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12"  onclick="viewRepresentativesBD(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 ">' +
+        '<div class="col-4 pr-0">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
         '</div>' +
-        '<div class="col-8 my-auto">' +
+        '<div class="col-8 my-auto pl-3">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeftBD[i] + '</b> (BD-' + teamIdForRowLeft[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowLeftBD[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowLeftHK[i] + '</p>' +
@@ -460,10 +460,10 @@ for (let i = 0; i < 6; i++) {
 
         '<div class="col-md-6 col-sm-12"  onclick="viewRepresentativesBD(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 ">' +
+        '<div class=" col-4 pr-0">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
         '</div>' +
-        '<div class="col-8 my-auto">' +
+        '<div class="col-8 my-auto pl-3">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightBD[i] + '</b> (BD-' + teamIdForRowRight[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowRightBD[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowRightHK[i] + '</p>' +
@@ -480,10 +480,10 @@ for (let i = 0; i < 1; i++) {
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTW(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 ">' +
+        '<div class="col-4 pr-0">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
         '</div>' +
-        '<div class="col-8 my-auto">' +
+        '<div class="col-8 my-auto pl-3">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowLeftTW[i] + '</b> (TW-' + teamIdForRowLeft[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowLeftTW[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowLeftHK[i] + '</p>' +
@@ -495,10 +495,10 @@ for (let i = 0; i < 1; i++) {
 
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTW(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 ">' +
+        '<div class=" col-4 pr-0">' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
         '</div>' +
-        '<div class="col-8 my-auto">' +
+        '<div class="col-8 my-auto pl-3">' +
         '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowRightTW[i] + '</b> (TW-' + teamIdForRowRight[i] + ')</p>' +
         '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowRightTW[i] + '</p>' +
         // '<p class="mx-0 my-0 fs-10 textBlack w-100"> HK-' + teamIdForRowRightHK[i] + '</p>' +
@@ -524,10 +524,10 @@ for (let i = 0; i <= Math.ceil(teamNameRowCN.length / 2); i++) {
             cnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCN(' + teamIdForRowCN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/cnFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowCN[i][j] + '</b> (CN-' + teamIdForRowCN[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowCN[i][j] + '</p>' +
                 '</div>' +
@@ -553,10 +553,10 @@ for (let i = 0; i <= 1; i++) {
             phRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesPH(' + teamIdForRowPH[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/phFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowPH[i][j] + '</b> (PH-' + teamIdForRowPH[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowPH[i][j] + '</p>' +
                 '</div>' +
@@ -580,10 +580,10 @@ for (let i = 0; i < 1; i++) {
             mnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesMN(' + teamIdForRowMN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/mnFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowMN[i][j] + '</b> (MN-' + teamIdForRowMN[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowMN[i][j] + '</p>' +
                 '</div>' +
@@ -606,10 +606,10 @@ for (let i = 0; i < 1; i++) {
             esRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesES(' + teamIdForRowES[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/esFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowES[i][j] + '</b> (ES-' + teamIdForRowES[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowES[i][j] + '</p>' +
                 '</div>' +
@@ -632,10 +632,10 @@ for (let i = 0; i < 1; i++) {
             gbRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesGB(' + teamIdForRowGB[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/gbFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowGB[i][j] + '</b> (GB-' + teamIdForRowGB[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowGB[i][j] + '</p>' +
                 '</div>' +
@@ -658,10 +658,10 @@ for (let i = 0; i <= 2; i++) {
             plRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesPL(' + teamIdForRowPL[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/plFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowPL[i][j] + '</b> (PL-' + teamIdForRowPL[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowPL[i][j] + '</p>' +
                 '</div>' +
@@ -684,10 +684,10 @@ for (let i = 0; i <= 1; i++) {
             usRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesUS(' + teamIdForRowUS[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/usFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowUS[i][j] + '</b> (US-' + teamIdForRowUS[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowUS[i][j] + '</p>' +
                 '</div>' +
@@ -710,10 +710,10 @@ for (let i = 0; i < 1; i++) {
             trRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTR(' + teamIdForRowTR[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/trFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowTR[i][j] + '</b> (TR-' + teamIdForRowTR[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowTR[i][j] + '</p>' +
                 '</div>' +
@@ -736,10 +736,10 @@ for (let i = 0; i < 1; i++) {
             thRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTH(' + teamIdForRowTH[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/thFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowTH[i][j] + '</b> (TH-' + teamIdForRowTH[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowTH[i][j] + '</p>' +
                 '</div>' +
@@ -762,10 +762,10 @@ for (let i = 0; i <= 1; i++) {
             vnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesVN(' + teamIdForRowVN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 ">' +
+                '<div class="col-4 pr-0">' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/vnFlag.png" class="">' +
                 '</div>' +
-                '<div class="col-8 my-auto">' +
+                '<div class="col-8 my-auto pl-3">' +
                 '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowVN[i][j] + '</b> (VN-' + teamIdForRowVN[i][j] + ')</p>' +
                 '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowVN[i][j] + '</p>' +
                 '</div>' +
