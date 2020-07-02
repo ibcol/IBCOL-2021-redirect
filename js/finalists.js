@@ -16,13 +16,74 @@ var teamIdForRowRight = [
     '12'
 ];
 
+
+// BD
+var pjNameRowLeftBD = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
+];
+
+var pjNameRowRightBD = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
+];
+
+var teamNameRowLeftBD = [
+    'Hyperactive Oranges',
+    'DU_Nimbus',
+    'TORR',
+    'Brogrammers',
+    'DU_Hyperledger',
+    'Code Nine BD'
+];
+
+var teamNameRowRightBD = [
+    'Team Leads Chain',
+    'Team Digital Innovation',
+    'WEIB_3:1',
+    'Aviato',
+    'Cosmic Crew',
+    'BUET_SKAMmers_1'
+];
+// BD
+
+
+// GB - templates
+var teamIdForRowGB = [
+    ['01', '']
+];
+
+
+var pjNameRowGB = [
+    ['', '']
+];
+
+
+var teamNameRowGB = [
+    ['Track Your Food',
+        ''
+    ]
+];
+// GB
+
+
 // CA - templates
 var teamIdForRowCA = [
-    ['01', '02']
+    ['01', '02'],
+    ['03', '04']
 ];
 
 
 var pjNameRowCA = [
+    ['', ''],
     ['', '']
 ];
 
@@ -30,10 +91,63 @@ var pjNameRowCA = [
 var teamNameRowCA = [
     ['Blossom Block',
         'Rumi'
+    ],
+    [
+        'Blossom Block ',
+        'Gainbow'
     ]
 
 ];
 // CA
+
+
+// CN - templates
+var teamIdForRowCN = [
+    ['01', '02'],
+    ['03', '04'],
+    ['05', '']
+];
+
+
+var pjNameRowCN = [
+    ['', ''],
+    ['', ''],
+    ['', '']
+];
+
+
+var teamNameRowCN = [
+    ['Support X',
+        'PracticeTogether'
+    ],
+    ['Carbonbase',
+        'LifeBlock'
+    ],
+    ['Golden Pear',
+        ''
+    ]
+];
+// CN
+
+
+// ES - templates
+var teamIdForRowES = [
+    ['01', '']
+];
+
+
+var pjNameRowES = [
+    ['', '']
+];
+
+
+var teamNameRowES = [
+    ['ACLI',
+        ''
+    ]
+];
+// ES
+
 
 // HK
 var pjNameRowLeftHK = [
@@ -75,45 +189,114 @@ var teamNameRowRightHK = [
 // HK
 
 
-// BD
-var pjNameRowLeftBD = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+// MN - templates
+var teamIdForRowMN = [
+    ['01', '']
 ];
 
-var pjNameRowRightBD = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+
+var pjNameRowMN = [
+    ['', '']
 ];
 
-var teamNameRowLeftBD = [
-    'Hyperactive Oranges',
-    'DU_Nimbus',
-    'TORR',
-    'Brogrammers',
-    'DU_Hyperledger',
-    'Code Nine BD'
+
+var teamNameRowMN = [
+    ['AutoChain',
+        ''
+    ]
+];
+// MN
+
+
+// PH - templates
+var teamIdForRowPH = [
+    ['01', '02'],
+    ['03', '04']
 ];
 
-var teamNameRowRightBD = [
-    'Team Leads Chain',
-    'Team Digital Innovation',
-    'WEIB_3:1',
-    'Aviato',
-    'Cosmic Crew',
-    'BUET_SKAMmers_1'
+
+var pjNameRowPH = [
+    ['', ''],
+    ['', '']
 ];
-// BD
 
 
+var teamNameRowPH = [
+    ['Timeswap',
+        'Christine'
+    ],
+    ['Mamay',
+        'GOMO'
+    ]
+
+];
+// PH
+
+
+// PL - templates
+var teamIdForRowPL = [
+    ['01', '02'],
+    ['03', '04'],
+    ['05', '06']
+];
+
+var pjNameRowPL = [
+    ['', ''],
+    ['', ''],
+    ['', '']
+];
+
+var teamNameRowPL = [
+    ['E-stamp',
+        'E-voting for universities'
+    ],
+    ['Simple Joint-Stock Company',
+        'Performance data analysis in sport on the example of the Olympic boxing'
+    ],
+    ['Legal approvement of electronic agreements',
+        'Censorship resistant text messages'
+    ]
+];
+// PL
+
+
+// TH - templates
+var teamIdForRowTH = [
+    ['01', '']
+];
+
+
+var pjNameRowTH = [
+    ['', '']
+];
+
+
+var teamNameRowTH = [
+    ['traffic-evidence-group',
+        ''
+    ]
+];
+// TH
+
+
+
+// TR - templates
+var teamIdForRowTR = [
+    ['01', '']
+];
+
+
+var pjNameRowTR = [
+    ['', '']
+];
+
+
+var teamNameRowTR = [
+    ['LightChain',
+        ''
+    ]
+];
+// TR
 
 // TW - templates
 var pjNameRowLeftTW = [
@@ -144,146 +327,6 @@ var teamNameRowRightTW = [
 ];
 // TW
 
-
-// CN - templates
-var teamIdForRowCN = [
-    ['01', '02'],
-    ['03', '04'],
-    ['05', '']
-];
-
-
-var pjNameRowCN = [
-    ['', ''],
-    ['', ''],
-    ['', '']
-];
-
-
-var teamNameRowCN = [
-    ['Support X',
-        'PracticeTogether'
-    ],
-    ['Carbonbase',
-        'LifeBlock'
-    ],
-    ['Golden Pear',
-        ''
-    ]
-];
-// CN
-
-
-
-// PL - templates
-var teamIdForRowPL = [
-    ['01', '02'],
-    ['03', '04'],
-    ['05', '06']
-];
-
-
-var pjNameRowPL = [
-    ['', ''],
-    ['', ''],
-    ['', '']
-];
-
-
-var teamNameRowPL = [
-    ['E-stamp',
-        'E-voting for universities'
-    ],
-    ['Simple Joint-Stock Company',
-        'Performance data analysis in sport on the example of the Olympic boxing'
-    ],
-    ['Legal approvement of electronic agreements',
-        'Censorship resistant text messages'
-    ]
-];
-// PL
-
-// PH - templates
-var teamIdForRowPH = [
-    ['01', '02'],
-    ['03', '04']
-];
-
-
-var pjNameRowPH = [
-    ['', ''],
-    ['', '']
-];
-
-
-var teamNameRowPH = [
-    ['Timeswap',
-        'Christine'
-    ],
-    ['Mamay',
-        'GOMO'
-    ]
-
-];
-// PH
-
-
-
-// MN - templates
-var teamIdForRowMN = [
-    ['01', '']
-];
-
-
-var pjNameRowMN = [
-    ['', '']
-];
-
-
-var teamNameRowMN = [
-    ['AutoChain',
-        ''
-    ]
-];
-// MN
-
-// GB - templates
-var teamIdForRowGB = [
-    ['01', '']
-];
-
-
-var pjNameRowGB = [
-    ['', '']
-];
-
-
-var teamNameRowGB = [
-    ['Track Your Food',
-        ''
-    ]
-];
-// GB
-
-// ES - templates
-var teamIdForRowES = [
-    ['01', '']
-];
-
-
-var pjNameRowES = [
-    ['', '']
-];
-
-
-var teamNameRowES = [
-    ['ACLI',
-        ''
-    ]
-];
-// ES
-
-
 // US - templates
 var teamIdForRowUS = [
     ['01', '02'],
@@ -306,44 +349,6 @@ var teamNameRowUS = [
     ]
 ];
 // US
-
-// TR - templates
-var teamIdForRowTR = [
-    ['01', '']
-];
-
-
-var pjNameRowTR = [
-    ['', '']
-];
-
-
-var teamNameRowTR = [
-    ['LightChain',
-        ''
-    ]
-];
-// TR
-
-// TH - templates
-var teamIdForRowTH = [
-    ['01', '']
-];
-
-
-var pjNameRowTH = [
-    ['', '']
-];
-
-
-var teamNameRowTH = [
-    ['traffic-evidence-group',
-        ''
-    ]
-];
-// TH
-
-
 
 // VN - templates
 var teamIdForRowVN = [
@@ -380,7 +385,7 @@ var teamNameRowVN = [
 // var tw = document.getElementById('tw');
 // var cn = document.getElementById('cn');
 
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i <= 1; i++) {
     ca.innerHTML += (
         '<div class="row mt-4" id="caRow' + i + '">' +
         '</div>'
@@ -874,6 +879,10 @@ function viewRepresentativesVN(index) {
     var target = teamNameVN[index - 1];
     window.open("../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html");
 }
+
+
+
+
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
