@@ -13,9 +13,11 @@ function genRepInfoFromJson(myObj) {
     document.getElementById('pjDesc').innerText = myObj.pjInfo.pjDesc;
 
     // MEDIA
-    document.getElementById('mediaWP').href = myObj.media.wp;
-    document.getElementById('mediaPB').href = myObj.media.pb;
-    document.getElementById('mediaPC').href = myObj.media.pc;
+    document.getElementById('posterPDF').href = myObj.media.posterPDF;
+    document.getElementById('pitchPDF').href = myObj.media.pitchPDF;
+    document.getElementById('pitchVideo').href = myObj.media.pitchVideo;
+    document.getElementById('demoVideo').href = myObj.media.demoVideo;
+    document.getElementById('oneMinIntro').href = myObj.media.oneMinIntro;
     // TEAM MEMBERS
 
     for (i = 0; i < myObj.teamMembersInfo.length; i++) {
