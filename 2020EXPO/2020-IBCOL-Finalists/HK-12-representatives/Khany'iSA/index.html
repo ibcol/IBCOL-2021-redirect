@@ -33,10 +33,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../../../js/function.js"></script>
-
-    <script>
-
-    </script>
 </head>
 
 <body id="top">
@@ -112,15 +108,16 @@
             <div class="row my-4">
                 <div class="col-md-6 col-sm-12 px-0 ">
                     <div class="w-100 left-sm-centre mb-4">
-                        <img src="../../../../images/2020-IBCOL-Finalists/flat/hkFlat.png" class="my-2">
+                        <img src="" id="flag" class="my-2">
                     </div>
 
                     <div class="w-100 left-sm-centre">
-                        <p class="teamName w-100 mb-0 fs-36 fs-sm-18">Khany'iSA
+                        <p class="teamName w-100 mb-0 fs-36 fs-sm-18" id="teamName">
+
                         </p>
-                        <p class="teamId w-100 mb-0 fs-24 fs-sm-16"> <b>Khany'iSA- Illuminate South Africa</b>
+                        <p class="teamId w-100 mb-0 fs-24 fs-sm-16"> <b id="pjName"></b>
                         </p>
-                        <p class="teamId w-100 mb-0 fs-20 fs-sm-14"> The City University of Hong Kong
+                        <p class="teamId w-100 mb-0 fs-20 fs-sm-14" id="uniName">
                         </p>
                     </div>
 
@@ -132,7 +129,7 @@
                     </div>
 
                     <div class="w-100 right-sm-centre">
-                        <img src="../../../../images/2020-IBCOL-Finalists/uni/cityu246.png" class="my-2">
+                        <img src="" id="uniLogo" class="my-2">
                     </div>
 
                 </div>
@@ -141,33 +138,14 @@
 
             <div class="row">
                 <div class="photoTitle w-100 mb-4">
-                <p class="pjDesc w-100">Project Description</p>
+                    <p class="pjDesc w-100">Project Description</p>
                 </div>
 
-                <p class="justify textBlack">
-                    South Africa is currently experience an ever worsening energy crisis owing to high level, executive
-                    mismanagement, an ageing infrastructure base and an increasingly unstable grid owing to population
-                    growth. The instability and unpredictability of electrical energy supply, the slow realisation of
-                    universal electrification and an increasing number of corruption and mismanagement related
-                    allegations has led to a growing dissatisfaction with and deep distrust of Eskom, as the national
-                    energy producer and supplier, and the centralised, national power grid in South Africa. Those with
-                    access to electrical energy and financial means have taken to fossil-fuel alternatives in an effort
-                    to try and minimise the effect of an inconsistent and unreliable power supply. This results in
-                    increasing carbon emissions and an added cost for end users. Others are left waiting to be connected
-                    to the power grid with few alternatives available to them - even 26 years after the new Constitution
-                    was implemented.
+                <p class="justify textBlack" id="pjDesc">
+
                 </p>
 
 
-                <p class="justify textBlack">
-                    Thus, this project, Khany’iSA – meaning illuminate South Africa – seeks to harness and combine
-                    emerging Industry 4.0 technologies, such as the Industrial Internet of Things (IIoT) and Distributed
-                    Ledger Technologies (DLTs), into a smart microgrid infrastructure that allows end users to
-                    self-generate and trade electrical energy through renewable energy generation sources. Khany’iSA
-                    seeks to provide control back to end users by allowing them control and independence for their
-                    energy requirements while providing a platform from which a new industry and income generation
-                    stream may provide job creation and stimulation to the country’s economic growth.
-                </p>
 
 
                 <!-- </div> -->
@@ -181,18 +159,8 @@
 
                 <div class="row mx-auto w-100 centre">
                     <div class="col-md-2 col-sm-12 py-0">
-                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/oneMinIntro.png" class="mediaImg2">
-                        <p class="bold"><a href="" id="oneMinIntro" target="blank" style="all:unset;" download>1-min intro</a></p>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12 py-0">
                         <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/posterPDF.png" class="mediaImg2">
                         <p class="bold"><a href="" id="posterPDF" target="blank" style="all:unset;" download>Poster PDF</a></p>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12 py-0">
-                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/pitchvideo.png" class="mediaImg2">
-                        <p class="bold"><a href="" id="pitchVideo" target="blank" style="all:unset;" download>Pitch video</a></p>
                     </div>
 
                     <div class="col-md-2 col-sm-12 py-0">
@@ -201,9 +169,20 @@
                     </div>
 
                     <div class="col-md-2 col-sm-12 py-0">
+                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/pitchvideo.png" class="mediaImg2">
+                        <p class="bold"><a href="" id="pitchVideo" target="blank" style="all:unset;" download>Pitch video</a></p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12 py-0">
                         <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/demoVideo.png" class="mediaImg2">
                         <p class="bold"><a href="" id="demoVideo" target="blank" style="all:unset;" download>Demo video</a></p>
                     </div>
+
+                    <div class="col-md-2 col-sm-12 py-0">
+                        <img src="../../../../images/2020-IBCOL-Finalists/toolsImg/oneMinIntro.png" class="mediaImg2">
+                        <p class="bold"><a href="" id="oneMinIntro" target="blank" style="all:unset;" download>1-min intro</a></p>
+                    </div>
+
                 </div>
             </div>
 
@@ -213,34 +192,12 @@
                     <h2 style="all:unset;">TEAM MEMBERS</h2>
                 </div>
 
-                <div class="row centre my-4 w-100">
-                    <div class="col-md-4 col-sm-12 my-auto py-0 right-sm-centre">
-                        <img src="./Team 506_Lehlogonolo Ledwaba - Lehlogonolo Ledwaba.png" class="">
-                    </div>
-
-                    <div class="col-md-8 col-sm-12 my-auto py-0">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 py-0">
-                                <p class="bold fs-36 fs-sm-18 textBlack mb-0 left-sm-centre"><b>Lehlogonolo Ledwaba</b></p>
-                                <p class=" fs-24 fs-sm-16 textBlack mb-0 left-sm-centre">The City University of Hong Kong
-                                </p>
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-
+                <div class="row w-100" id="teamMembers"></div>
             </div>
 
 
 
     </section>
-
-
 
     <!-- <div class="row centre">
         <p class="w-100"> Learn more about this project straight from the team themselves</p>
@@ -318,10 +275,41 @@
 
     <!-- Java Script
         ================================================== -->
+    <script src="../../../.././js/representativesInfoGenerator.js"></script>
     <script src="../../../.././js/jquery-3.2.1.min.js"></script>
     <script src="../../../.././js/plugins.js"></script>
     <script src="../../../.././js/main.js"></script>
     <script src="../../../.././js/function.js"></script>
-</body>
 
-</html>
+    <script>
+        var myObj = "";
+        myObj = {
+            "teamMembersInfo": [
+                {
+                    "name": "Lehlogonolo Ledwaba",
+                    "uni": "City University of Hong Kong",
+                    "img": "./Lehlogonolo Ledwaba.png"
+                },
+            ],
+            "media": {
+                "posterPDF": "",
+                "pitchPDF": "",
+                "pitchVideo": "",
+                "demoVideo": "",
+                "oneMinIntro": ""
+            },
+            "pjInfo": {
+                "pjDesc": "Khany’iSA – meaning illuminate in multiple Nguni languages– seeks to harness and combine emerging Industry 4.0 technologies, such as the Industrial Internet of Things (IIoT) and Distributed Ledger Technologies (DLTs), into a smart microgrid infrastructure that allows end users to self-generate, using renewable generation sources, and employ peer-to-peer trade of electrical energy in a real-time, secure, energy market. This project aims to provide economic stimulation, grid load balancing capability and improvements to the general quality of life for rural and urban communities by providing universal electricity access to South Africa by 2030, to the Southern African Development Community (SADC) by 2040 and to the African continent and global community by 2060 and beyond."
+            },
+            "teamInfo": {
+                "pjName": "Khany'iSA: Illuminate South Africa",
+                "uniName": "City University of Hong Kong",
+                "teamName": "Khany'iSA",
+                "uniLogo": "../../../../images/2020-IBCOL-Finalists/uni/hk/cityu246.png"
+            },
+            "flag": "../../../../images/2020-IBCOL-Finalists/flat/hkFlag.png"
+
+
+        };
+        genRepInfoFromJson(myObj);
+    </script>
