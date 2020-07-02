@@ -97,7 +97,7 @@ var pjNameRowCN = [
 
 
 var teamNameRowCN = [
-    ['Support X',
+    ['Genie',
         'PracticeTogether'
     ],
     ['Carbonbase',
@@ -834,7 +834,7 @@ function viewRepresentativesCN(index) {
     // console.log('index: ' + index);
 
     var teamNameCN = [
-        'Support X',
+        'Genie',
         'PracticeTogether',
         'Carbonbase',
         'LifeBlock',
