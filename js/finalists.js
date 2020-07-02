@@ -398,7 +398,7 @@ for (let i = 0; i <= 1; i++) {
             caRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCA(' + teamIdForRowCA[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/caFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -417,7 +417,7 @@ for (let i = 0; i < 6; i++) {
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 pr-0">' +
+        '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto pl-3">' +
@@ -431,7 +431,7 @@ for (let i = 0; i < 6; i++) {
 
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesHK(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 pr-0">' +
+        '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/hkFlat.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto pl-3">' +
@@ -451,7 +451,7 @@ for (let i = 0; i < 6; i++) {
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12"  onclick="viewRepresentativesBD(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 pr-0">' +
+        '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto pl-3">' +
@@ -465,7 +465,7 @@ for (let i = 0; i < 6; i++) {
 
         '<div class="col-md-6 col-sm-12"  onclick="viewRepresentativesBD(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 pr-0">' +
+        '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/bdFlag.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto pl-3">' +
@@ -485,7 +485,7 @@ for (let i = 0; i < 1; i++) {
         '<div class="row mt-4">' +
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTW(' + teamIdForRowLeft[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-        '<div class="col-4 pr-0">' +
+        '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto pl-3">' +
@@ -500,7 +500,7 @@ for (let i = 0; i < 1; i++) {
 
         '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTW(' + teamIdForRowRight[i] + ')" style="cursor:pointer">' +
         '<div class="row mt-2 justify-content-sm-center justify-content-xs-center">' +
-        '<div class=" col-4 pr-0">' +
+        '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
         '<img src=".././images/2020-IBCOL-Finalists/flat/twFlag.png" class="">' +
         '</div>' +
         '<div class="col-8 my-auto pl-3">' +
@@ -529,7 +529,7 @@ for (let i = 0; i <= Math.ceil(teamNameRowCN.length / 2); i++) {
             cnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesCN(' + teamIdForRowCN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/cnFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -558,7 +558,7 @@ for (let i = 0; i <= 1; i++) {
             phRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesPH(' + teamIdForRowPH[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/phFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -585,7 +585,7 @@ for (let i = 0; i < 1; i++) {
             mnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesMN(' + teamIdForRowMN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/mnFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -611,7 +611,7 @@ for (let i = 0; i < 1; i++) {
             esRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesES(' + teamIdForRowES[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/esFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -637,7 +637,7 @@ for (let i = 0; i < 1; i++) {
             gbRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesGB(' + teamIdForRowGB[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/gbFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -663,7 +663,7 @@ for (let i = 0; i <= 2; i++) {
             plRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesPL(' + teamIdForRowPL[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/plFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -689,7 +689,7 @@ for (let i = 0; i <= 1; i++) {
             usRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesUS(' + teamIdForRowUS[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/usFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -715,7 +715,7 @@ for (let i = 0; i < 1; i++) {
             trRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTR(' + teamIdForRowTR[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/trFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -741,7 +741,7 @@ for (let i = 0; i < 1; i++) {
             thRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesTH(' + teamIdForRowTH[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/thFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
@@ -767,7 +767,7 @@ for (let i = 0; i <= 1; i++) {
             vnRowX.innerHTML += (
                 '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesVN(' + teamIdForRowVN[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
-                '<div class="col-4 pr-0">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/vnFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto pl-3">' +
