@@ -55,26 +55,6 @@ var teamNameRowRightBD = [
 ];
 // BD
 
-
-// GB - templates
-var teamIdForRowGB = [
-    ['01', '']
-];
-
-
-var pjNameRowGB = [
-    ['', '']
-];
-
-
-var teamNameRowGB = [
-    ['Track Your Food',
-        ''
-    ]
-];
-// GB
-
-
 // CA - templates
 var teamIdForRowCA = [
     ['01', '02'],
@@ -344,6 +324,24 @@ var teamNameRowRightTW = [
     'VeriRx Network'
 ];
 // TW
+
+// UK - templates
+var teamIdForRowUK = [
+    ['01', '']
+];
+
+
+var pjNameRowUK = [
+    ['', '']
+];
+
+
+var teamNameRowUK = [
+    ['Track Your Food',
+        ''
+    ]
+];
+// UK
 
 // US - templates
 var teamIdForRowUS = [
@@ -643,24 +641,24 @@ for (let i = 0; i < 1; i++) {
 }
 
 for (let i = 0; i < 1; i++) {
-    gb.innerHTML += (
-        '<div class="row mt-4" id="gbRow' + i + '">' +
+    uk.innerHTML += (
+        '<div class="row mt-4" id="ukRow' + i + '">' +
         '</div>'
     );
 
-    var gbRowX = document.getElementById('gbRow' + i);
+    var ukRowX = document.getElementById('ukRow' + i);
 
     for (let j = 0; j <= 1; j++) {
-        if (teamNameRowGB[i][j] === '') {} else {
-            gbRowX.innerHTML += (
-                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesGB(' + teamIdForRowGB[i][j] + ')" style="cursor:pointer">' +
+        if (teamNameRowUK[i][j] === '') {} else {
+            ukRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesUK(' + teamIdForRowUK[i][j] + ')" style="cursor:pointer">' +
                 '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
                 '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
                 '<img src=".././images/2020-IBCOL-Finalists/flat/gbFlag.png" class="">' +
                 '</div>' +
                 '<div class="col-8 my-auto ">' +
-                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowGB[i][j] + '</b> (GB-' + teamIdForRowGB[i][j] + ')</p>' +
-                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowGB[i][j] + '</p>' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowUK[i][j] + '</b> (GB-' + teamIdForRowUK[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowUK[i][j] + '</p>' +
                 '</div>' +
                 '</div>'
             );
@@ -904,7 +902,7 @@ function viewRepresentativesVN(index) {
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
-    var showArr = ['bd', 'gb', 'ca', 'cn', 'es', 'hk', 'mn', 'ph', 'pl', 'th', 'tr', 'tw', 'uk', 'us', 'vn'];
+    var showArr = ['bd', 'ca', 'cn', 'es', 'hk', 'mn', 'ph', 'pl', 'th', 'tr', 'tw', 'uk', 'us', 'vn'];
     var selectedVal = sel.options[sel.selectedIndex].value;
 
     if (selectedVal === 'all') {
