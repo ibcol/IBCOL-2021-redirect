@@ -871,7 +871,7 @@ function viewRepresentativesBD(index) {
     // if (target === 'WEIB_3:1') {
     //     target = 'WEIB_3/1'
     // }
-     window.open("../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/index.html");
+     window.location = "../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesCN(index) {
@@ -886,7 +886,7 @@ function viewRepresentativesCN(index) {
     ];
 
     var target = teamNameCN[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesES(index) {
@@ -894,7 +894,7 @@ function viewRepresentativesES(index) {
         'ACLI'
     ];
     var target = teamNameES[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/ES-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/ES-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesUK(index) {
@@ -903,7 +903,7 @@ function viewRepresentativesUK(index) {
         ''
     ];
     var target = teamNameUK[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/UK-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/UK-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesHK(index) {
@@ -922,7 +922,7 @@ function viewRepresentativesHK(index) {
         'TWOS'
     ];
     var target = teamNameHK[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesMN(index) {
@@ -930,7 +930,7 @@ function viewRepresentativesMN(index) {
         'Unilock Team'
     ];
     var target = teamNameMN[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/MN-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/MN-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesNL(index) {
@@ -938,7 +938,7 @@ function viewRepresentativesNL(index) {
         'Agnos', 'Neuro Trace'
     ];
     var target = teamNameNL[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/NL-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/NL-12-representatives/" + target + "/index.html";
 }
 
 
@@ -952,7 +952,7 @@ function viewRepresentativesPL(index) {
         'Anonymous Student'
     ];
     var target = teamNamePL[index - 1];
-    window.open("../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html");
+    window.location ="../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesTR(index) {
@@ -961,7 +961,7 @@ function viewRepresentativesTR(index) {
         ''
     ];
     var target = teamNameTW[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/TR-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/TR-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesTW(index) {
@@ -970,7 +970,7 @@ function viewRepresentativesTW(index) {
         'NCTU LAW'
     ];
     var target = teamNameTW[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesVN(index) {
@@ -980,7 +980,7 @@ function viewRepresentativesVN(index) {
         'Tokenbot ai'
     ];
     var target = teamNameVN[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html";
 }
 
 function viewRepresentativesUS(index) {
@@ -990,7 +990,7 @@ function viewRepresentativesUS(index) {
         'AlliedFund'
     ];
     var target = teamNameUS[index - 1];
-     window.open("../2020EXPO/2020-IBCOL-Finalists/US-12-representatives/" + target + "/index.html");
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/US-12-representatives/" + target + "/index.html";
 }
 
 
