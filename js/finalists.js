@@ -263,14 +263,14 @@ var pjNameRowPL = [
 ];
 
 var teamNameRowPL = [
-    ['E-stamp',
+    ['Blockchain Society SGH',
         'E-voting for universities'
     ],
-    ['Simple Joint-Stock Company',
-        'Performance data analysis in sport on the example of the Olympic boxing'
+    ['Blockchain Society SGH',
+        'Skorpion Szczecin Team'
     ],
-    ['Legal approvement of electronic agreements',
-        'Censorship resistant text messages'
+    ['Mariusz Bochenek',
+        'Anonymous Student'
     ]
 ];
 // PL
@@ -944,12 +944,12 @@ function viewRepresentativesNL(index) {
 
 function viewRepresentativesPL(index) {
     var teamNamePL = [
-        'E-stamp',
+        'Blockchain Society SGH',
         'E-voting for universities',
-        'Simple Joint-Stock Company',
-        'Performance data analysis in sport on the example of the Olympic boxing',
-        'Legal approvement of electronic agreements',
-        'Censorship resistant text messages'
+        'Blockchain Society SGH 03',
+        'Skorpion Szczecin Team',
+        'Mariusz Bochenek',
+        'Anonymous Student'
     ];
     var target = teamNamePL[index - 1];
     window.open("../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html");
