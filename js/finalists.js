@@ -64,7 +64,7 @@ var teamIdForRowCA = [
 
 
 var pjNameRowCA = [
-    ['', ''],
+    ['CampusSafe, Helping Students to Get Back to Schools Safely', 'Students Personal Data Storage'],
     ['', 'Gainbow'],
     ['Increase transparency in the world of policing', '']
 ];
@@ -370,7 +370,7 @@ var teamNameRowUK = [
 // US - templates
 var teamIdForRowUS = [
     ['01', '02'],
-    ['03', '']
+    ['', '']
 ];
 
 
@@ -384,7 +384,7 @@ var teamNameRowUS = [
     ['Meld Exchange (MeldX)',
         'Avalanche'
     ],
-    ['AlliedFund',
+    ['',
         ''
     ]
 ];
