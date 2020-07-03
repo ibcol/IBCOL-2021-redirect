@@ -845,6 +845,14 @@ function viewRepresentativesCN(index) {
     window.location.replace("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/index.html");
 }
 
+function viewRepresentativesES(index) {
+    var teamNameES = [
+        'ACLI'
+    ];
+    var target = teamNameES[index - 1];
+    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/ES-12-representatives/" + target + "/index.html");
+}
+
 function viewRepresentativesHK(index) {
     var teamNameHK = [
         'Beacon Blockchain Group',
