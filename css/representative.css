@@ -62,6 +62,10 @@ text-align: right;
 text-align: left;
 }
 
+.flagshdw {
+    border: 1px solid !important;
+    /* box-shadow: 4px 6px grey !important; */
+  }
 
 @media only screen and (max-width: 414px) {
     .fs-sm-12 {
