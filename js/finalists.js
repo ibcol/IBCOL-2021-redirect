@@ -205,6 +205,24 @@ var teamNameRowMN = [
 ];
 // MN
 
+// NL - templates
+var teamIdForRowNL = [
+    ['01', '02']
+];
+
+
+var pjNameRowNL = [
+    ['', '']
+];
+
+
+var teamNameRowNL = [
+    ['Agnos',
+        'Neuro Trace'
+    ]
+];
+// NL
+
 
 // PH - templates
 var teamIdForRowPH = [
@@ -321,7 +339,7 @@ var teamNameRowLeftTW = [
 ];
 
 var teamNameRowRightTW = [
-    'VeriRx Network'
+    'NCTU LAW'
 ];
 // TW
 
@@ -615,6 +633,32 @@ for (let i = 0; i < 1; i++) {
 }
 
 for (let i = 0; i < 1; i++) {
+    nl.innerHTML += (
+        '<div class="row mt-4" id="nlRow' + i + '">' +
+        '</div>'
+    );
+
+    var nlRowX = document.getElementById('nlRow' + i);
+
+    for (let j = 0; j <= 1; j++) {
+        if (teamNameRowNL[i][j] === '') {} else {
+            nlRowX.innerHTML += (
+                '<div class="col-md-6 col-sm-12" onclick="viewRepresentativesNL(' + teamIdForRowNL[i][j] + ')" style="cursor:pointer">' +
+                '<div class="row mt-2 justify-content-sm-center justify-content-xs-center ">' +
+                '<div class="col-4 pr-0 min-lg-text-align-right"  >' +
+                '<img src=".././images/2020-IBCOL-Finalists/flat/nlFlag.png" class="">' +
+                '</div>' +
+                '<div class="col-8 my-auto ">' +
+                '<p class="mx-0 my-0 fs-14 textBlack line-h-1 w-100"><b>' + teamNameRowNL[i][j] + '</b> (NL-' + teamIdForRowNL[i][j] + ')</p>' +
+                '<p class="mx-0 my-0 fs-12 textBlack line-h-1 w-100">' + pjNameRowNL[i][j] + '</p>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    }
+}
+
+for (let i = 0; i < 1; i++) {
     es.innerHTML += (
         '<div class="row mt-4" id="esRow' + i + '">' +
         '</div>'
@@ -827,7 +871,7 @@ function viewRepresentativesBD(index) {
     // if (target === 'WEIB_3:1') {
     //     target = 'WEIB_3/1'
     // }
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesCN(index) {
@@ -842,7 +886,24 @@ function viewRepresentativesCN(index) {
     ];
 
     var target = teamNameCN[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/CN-12-representatives/" + target + "/index.html");
+}
+
+function viewRepresentativesES(index) {
+    var teamNameES = [
+        'ACLI'
+    ];
+    var target = teamNameES[index - 1];
+     window.open("../2020EXPO/2020-IBCOL-Finalists/ES-12-representatives/" + target + "/index.html");
+}
+
+function viewRepresentativesUK(index) {
+    var teamNameUK = [
+        'Track Your Food',
+        ''
+    ];
+    var target = teamNameUK[index - 1];
+     window.open("../2020EXPO/2020-IBCOL-Finalists/UK-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesHK(index) {
@@ -861,7 +922,7 @@ function viewRepresentativesHK(index) {
         'TWOS'
     ];
     var target = teamNameHK[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesMN(index) {
@@ -869,7 +930,15 @@ function viewRepresentativesMN(index) {
         'Unilock Team'
     ];
     var target = teamNameMN[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/MN-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/MN-12-representatives/" + target + "/index.html");
+}
+
+function viewRepresentativesNL(index) {
+    var teamNameNL = [
+        'Agnos', 'Neuro Trace'
+    ];
+    var target = teamNameNL[index - 1];
+     window.open("../2020EXPO/2020-IBCOL-Finalists/NL-12-representatives/" + target + "/index.html");
 }
 
 
@@ -883,16 +952,16 @@ function viewRepresentativesPL(index) {
         'Censorship resistant text messages'
     ];
     var target = teamNamePL[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html");
+    window.open("../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesTW(index) {
     var teamNameTW = [
         'Researchain',
-        'VeriRx Network'
+        'NCTU LAW'
     ];
     var target = teamNameTW[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/TW-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesVN(index) {
@@ -902,7 +971,7 @@ function viewRepresentativesVN(index) {
         'Tokenbot ai'
     ];
     var target = teamNameVN[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/VN-12-representatives/" + target + "/index.html");
 }
 
 function viewRepresentativesUS(index) {
@@ -912,7 +981,7 @@ function viewRepresentativesUS(index) {
         'AlliedFund'
     ];
     var target = teamNameUS[index - 1];
-    window.location.replace("../2020EXPO/2020-IBCOL-Finalists/US-12-representatives/" + target + "/index.html");
+     window.open("../2020EXPO/2020-IBCOL-Finalists/US-12-representatives/" + target + "/index.html");
 }
 
 
@@ -920,7 +989,7 @@ function viewRepresentativesUS(index) {
 
 function listCh(sel) {
     // console.log(sel.options[sel.selectedIndex].value);
-    var showArr = ['bd', 'ca', 'cn', 'es', 'hk', 'mn', 'ph', 'pl', 'th', 'tr', 'tw', 'uk', 'us', 'vn'];
+    var showArr = ['bd', 'ca', 'cn', 'es', 'hk', 'mn', 'nl', 'ph', 'pl', 'th', 'tr', 'tw', 'uk', 'us', 'vn'];
     var selectedVal = sel.options[sel.selectedIndex].value;
 
     if (selectedVal === 'all') {
