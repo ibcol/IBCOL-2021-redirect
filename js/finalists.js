@@ -294,7 +294,7 @@ var pjNameRowTH = [
 
 
 var teamNameRowTH = [
-    ['traffic-evidence-group',
+    ['salayaboiz',
         ''
     ]
 ];
@@ -960,13 +960,21 @@ function viewRepresentativesPL(index) {
     var target = teamNamePL[index - 1];
     window.location ="../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html";
 }
+function viewRepresentativesTH(index) {
+    var teamNameTH = [
+        'salayaboiz',
+        ''
+    ];
+    var target = teamNameTH[index - 1];
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/TH-12-representatives/" + target + "/index.html";
+}
 
 function viewRepresentativesTR(index) {
-    var teamNameTW = [
+    var teamNameTR = [
         'LightChain',
         ''
     ];
-    var target = teamNameTW[index - 1];
+    var target = teamNameTR[index - 1];
      window.location ="../2020EXPO/2020-IBCOL-Finalists/TR-12-representatives/" + target + "/index.html";
 }
 
