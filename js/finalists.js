@@ -975,6 +975,18 @@ function viewRepresentativesPL(index) {
     var target = teamNamePL[index - 1];
     window.location ="../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html";
 }
+
+function viewRepresentativesPH(index) {
+    var teamNamePH = [
+        'Timeswap',
+        'Christine',
+        'Mamay',
+        'GOMO'
+    ];
+    var target = teamNamePH[index - 1];
+    window.location ="../2020EXPO/2020-IBCOL-Finalists/PH-12-representatives/" + target + "/index.html";
+}
+
 function viewRepresentativesTH(index) {
     var teamNameTH = [
         'salayaboiz',
