@@ -58,11 +58,13 @@ var teamNameRowRightBD = [
 // CA - templates
 var teamIdForRowCA = [
     ['01', '02'],
-    ['03', '04']
+    ['03', '04'],
+    ['05', '']
 ];
 
 
 var pjNameRowCA = [
+    ['', ''],
     ['', ''],
     ['', '']
 ];
@@ -74,7 +76,11 @@ var teamNameRowCA = [
     ],
     [
         'Blossom Block ',
-        'Gainbow'
+        'GBOW'
+    ],
+    [
+        'justBOT',
+        ''
     ]
 
 ];
@@ -419,7 +425,7 @@ var teamNameRowVN = [
 // var tw = document.getElementById('tw');
 // var cn = document.getElementById('cn');
 
-for (let i = 0; i <= 1; i++) {
+for (let i = 0; i <= 2; i++) {
     ca.innerHTML += (
         '<div class="row mt-4" id="caRow' + i + '">' +
         '</div>'
