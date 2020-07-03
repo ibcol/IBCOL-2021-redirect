@@ -955,6 +955,15 @@ function viewRepresentativesPL(index) {
     window.open("../2020EXPO/2020-IBCOL-Finalists/PL-12-representatives/" + target + "/index.html");
 }
 
+function viewRepresentativesTR(index) {
+    var teamNameTW = [
+        'LightChain',
+        ''
+    ];
+    var target = teamNameTW[index - 1];
+     window.open("../2020EXPO/2020-IBCOL-Finalists/TR-12-representatives/" + target + "/index.html");
+}
+
 function viewRepresentativesTW(index) {
     var teamNameTW = [
         'Researchain',
