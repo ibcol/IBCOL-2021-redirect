@@ -880,6 +880,21 @@ function viewRepresentativesBD(index) {
      window.location = "../2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/" + target + "/index.html";
 }
 
+function viewRepresentativesCA(index) {
+    // console.log('index: ' + index);
+
+    var teamNameCA = [
+        'Blossom Block',
+        'Rumi',
+        'Blossom Block ',
+        'GBOW',
+        'justBOT',
+    ];
+
+    var target = teamNameCA[index - 1];
+     window.location ="../2020EXPO/2020-IBCOL-Finalists/CA-12-representatives/" + target + "/index.html";
+}
+
 function viewRepresentativesCN(index) {
     // console.log('index: ' + index);
 
