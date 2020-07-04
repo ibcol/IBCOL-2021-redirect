@@ -19,21 +19,21 @@ var teamIdForRowRight = [
 
 // BD
 var pjNameRowLeftBD = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+    'Health Ledger',
+    'National blockchain driven private cloud-based platform for Bangladesh: adopted in land administration',
+    'MediTech Bangla',
+    'RETransparentNET, A Platform for Secure Transaction in Real Estate Industry',
+    'ReliChain : Trust and transparency in relief supply chain',
+    'BONTON, A Transparent Relief Distribution Using Blockchain Technology'
 ];
 
 var pjNameRowRightBD = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+    'Track, Trace and Verify Insulin Medicine',
+    'Decentralized Identity and Aid Distribution Platform for Rohingya Refugees',
+    'PROBAHO - Decentralized VAT Automation Network for Ensuring Economic Growth',
+    'Arun',
+    'Blockchain to Prevent Public Health Risks caused by Counterfeit Skin and Health Care Products',
+    'AprChain'
 ];
 
 var teamNameRowLeftBD = [
@@ -64,9 +64,9 @@ var teamIdForRowCA = [
 
 
 var pjNameRowCA = [
-    ['', ''],
-    ['', ''],
-    ['', '']
+    ['CampusSafe, Helping Students to Get Back to Schools Safely', 'Students Personal Data Storage'],
+    ['', 'Gainbow'],
+    ['Increase transparency in the world of policing', '']
 ];
 
 
@@ -96,9 +96,9 @@ var teamIdForRowCN = [
 
 
 var pjNameRowCN = [
-    ['', ''],
-    ['', ''],
-    ['', '']
+    ['Support X Blockchain public welfare platform', 'Trusted evidence storage platform - Euthen'],
+    ['Carbonbase', 'Blockchain-based veterinary medical information management solution'],
+    ['Smart agriculture, rural areas and farmers platform based on blockchain', '']
 ];
 
 
@@ -123,7 +123,7 @@ var teamIdForRowES = [
 
 
 var pjNameRowES = [
-    ['', '']
+    ['Blockchain Technology —— New Impetus For Luxury Industry', '']
 ];
 
 
@@ -155,21 +155,21 @@ var teamNameRowES = [
 // ];
 
 var pjNameRowLeftHK = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+    'Blockchain in Crane Risk management',
+    'One-stop rental & asset management program',
+    'Ukwazi',
+    'Khany\'iSA: Illuminate South Africa',
+    'SmartLending',
+    'BCred: A Blockchain Platform for Academic Credentials'
 ];
 
 var pjNameRowRightHK = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+    'Spearchain: transparent track-and-trace platform for monitoring medical donation',
+    'Privacy-preserving certification of the antibody test',
+    'Blockchain for microcredit',
+    'Blockchain-based Organizational Whistleblowing System (BOWS)',
+    'Blockchain Technology for Aviation Inventory Management',
+    'Optimise Payment Practice in Hong Kong Construction Industry by Blockchain Technology'
 ];
 
 var teamNameRowLeftHK = [
@@ -200,7 +200,7 @@ var teamIdForRowMN = [
 
 
 var pjNameRowMN = [
-    ['', '']
+    ['AUTOCHAIN - blockchain based self-driving car system', '']
 ];
 
 
@@ -218,7 +218,7 @@ var teamIdForRowNL = [
 
 
 var pjNameRowNL = [
-    ['', '']
+    ['Credible news platform', 'Blockchain IoT for Supply Chain'],
 ];
 
 
@@ -238,8 +238,8 @@ var teamIdForRowPH = [
 
 
 var pjNameRowPH = [
-    ['', ''],
-    ['', '']
+    ['Automated fixed term deposit, loan, and futures protocol', 'Subay'],
+    ['Breast Feeding Application', 'Viralert']
 ];
 
 
@@ -263,9 +263,9 @@ var teamIdForRowPL = [
 ];
 
 var pjNameRowPL = [
-    ['', ''],
-    ['', ''],
-    ['', '']
+    ['E-stamp', 'Remote voting system for universities based on blockchain'],
+    ['Simple Joint-Stock Company', 'Sports Performance Blockchain Platform'],
+    ['LEGAL APPROVEMENT OF ELECTRONIC AGREEMENTS. The shortest way to prove good faith in legal transactions', 'Censorship resistant text messages']
 ];
 
 var teamNameRowPL = [
@@ -289,7 +289,7 @@ var teamIdForRowTH = [
 
 
 var pjNameRowTH = [
-    ['', '']
+    ['Application For Recording Traffic Incident As Useful Evidence', '']
 ];
 
 
@@ -309,7 +309,7 @@ var teamIdForRowTR = [
 
 
 var pjNameRowTR = [
-    ['', '']
+    ['LightChain: Scalable DHT-based Blockchain', '']
 ];
 
 
@@ -322,7 +322,7 @@ var teamNameRowTR = [
 
 // TW - templates
 var pjNameRowLeftTW = [
-    '',
+    'Researchain | Decentralize Knowledge',
     '',
     '',
     '',
@@ -331,7 +331,7 @@ var pjNameRowLeftTW = [
 ];
 
 var pjNameRowRightTW = [
-    '',
+    'VeriRx NetWork',
     '',
     '',
     '',
@@ -356,7 +356,7 @@ var teamIdForRowUK = [
 
 
 var pjNameRowUK = [
-    ['', '']
+    ['Track Your Food', '']
 ];
 
 
@@ -370,12 +370,12 @@ var teamNameRowUK = [
 // US - templates
 var teamIdForRowUS = [
     ['01', '02'],
-    ['03', '']
+    ['', '']
 ];
 
 
 var pjNameRowUS = [
-    ['', ''],
+    ['Founder-friendly avenue of raising capital', 'Avalanche Savings'],
     ['', '']
 ];
 
@@ -384,7 +384,7 @@ var teamNameRowUS = [
     ['Meld Exchange (MeldX)',
         'Avalanche'
     ],
-    ['AlliedFund',
+    ['',
         ''
     ]
 ];
@@ -398,8 +398,8 @@ var teamIdForRowVN = [
 
 
 var pjNameRowVN = [
-    ['', ''],
-    ['', '']
+    ['BCHAIN NETWORK', 'Blockchain and AI application for health microinsurance'],
+    ['Tokenbot AI', '']
 ];
 
 
