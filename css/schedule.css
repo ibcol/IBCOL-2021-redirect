@@ -30,6 +30,10 @@
     font-size: 12px;
 }
 
+.fs-12-italicized {
+    font-style: italic !important;
+}
+
 .fs-24 {
     font-size: 24px !important;
 }
