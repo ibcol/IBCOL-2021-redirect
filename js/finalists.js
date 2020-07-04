@@ -64,12 +64,12 @@ var teamIdForRowCA = [
 
 var pjNameRowCA = [
     ['CampusSafe, Helping Students to Get Back to Schools Safely', 'Students Personal Data Storage'],
-    ['Gainbow', 'Increase transparency in the world of policing']
+    ['Gainbow', 'justBOT']
 ];
 
 
 var teamNameRowCA = [
-    ['Blossom Block',
+    ['Blossom Power',
         'Rumi'
     ],
     [
@@ -879,7 +879,7 @@ function viewRepresentativesCA(index) {
     // console.log('index: ' + index);
 
     var teamNameCA = [
-        'Blossom Block',
+        'Blossom Power',
         'Rumi',
         '',
         'GBOW',
