@@ -1,3 +1,10 @@
+/* spnosor */
+.sponsorImg {
+    width: 300px !important;
+
+}
+
+
 /* the prizes */
 
 .prizeHeader {
@@ -11,6 +18,105 @@
 .left {
     text-align: left;
 }
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.boldText {
+    font-weight: bold !important;
+}
+
+.fs-italicized {
+    font-style: italic !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.medalBg {
+    /* position: relative; */
+    font-size: 2.4rem;
+    /* width: 100%; */
+    height: 46px !important;
+    opacity: 0.3;
+
+}
+
+.medalText {
+    position: absolute;
+    z-index: 7;
+    top: 0px;
+    width: 100%;
+    font-size: 2.4rem;
+}
+
+.goldBg {
+    background: #FEE101;
+}
+
+.goldText {
+    color: #EEAB00;
+}
+
+.sliverBg {
+    background: #D7D7D7;
+}
+
+.sliverText {
+    color: #666666;
+}
+
+.bronzeBg {
+    background: #A77044;
+}
+
+.bronzeText {
+    color: #602E00;
+}
+
+.fintechAwardBg {
+    background: #72DDFF;
+}
+
+.fintechAwardText {
+    color: #01647A;
+}
+
+.popularityAwardBg {
+    background: #CA87FF;
+}
+
+.popularityAwardText {
+    color: #820085;
+}
+
+
+
+.winners2020 {
+    position: relative;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.35);
+    height: 375px !important;
+}
+
+.winners20202 {
+    position: relative;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.35);
+    /* height: 375px !important; */
+}
+
+.winners2020Img {
+    width: 128px !important;
+    height: 128px !important;
+}
+
+.winners2020Img2 {
+    width: 76px !important;
+    height: 76px !important;
+}
+
+
 
 .prizesImg {
     width: fit-content;
@@ -56,6 +162,27 @@
 
 @media screen and (max-width: 768px) {}
 
+@media screen and (max-width: 767px) {
+    .mt-5-mb-5 {
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .winners2020 {
+        width: 100% !important;
+        height: 375px !important;
+    }
+
+    .winnier-px-20-precent {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .w-400px-xs {
+        width: 400px !important;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .prizesImg {
         margin-top: 24px;
@@ -77,8 +204,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
-
     .prizesImg {
         /* width: 150px;
         height: 150px; */
@@ -94,5 +219,16 @@
 
     .center-sp {
         text-align: center;
+    }
+
+    .winnier-px-20-precent {
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (device-width: 414px) {
+    .row-70-xs {
+        width: 80% !important;
     }
 }

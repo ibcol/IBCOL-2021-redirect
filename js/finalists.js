@@ -172,7 +172,7 @@ var teamNameRowLeftHK = [
     'Blockio',
     'Khany\'iSA',
     'Fintech Passionate',
-    'PChain'
+    'BCrew'
 
 ];
 
@@ -934,7 +934,7 @@ function viewRepresentativesHK(index) {
         'WM',
         'Fintech Passionate',
         'Ascension',
-        'PChain',
+        'BCrew',
         'TWOS'
     ];
     var target = teamNameHK[index - 1];
