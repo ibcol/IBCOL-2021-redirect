@@ -177,8 +177,26 @@
         padding-right: 20%;
     }
 
+    .winnier-px-8-precent {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
     .w-400px-xs {
         width: 400px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .w-400px-xs {
+        width: 320px !important;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .w-400px-xs {
+        width: 290px !important;
     }
 }
 
@@ -222,6 +240,10 @@
 
     .winnier-px-20-precent {
         padding: 0 10px;
+    }
+
+    .winnier-px-8-precent {
+        padding: 0 0px;
     }
 
 }
