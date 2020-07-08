@@ -1,10 +1,3 @@
-/* spnosor */
-.sponsorImg {
-    width: 300px !important;
-
-}
-
-
 /* the prizes */
 
 .prizeHeader {
@@ -163,6 +156,12 @@
 @media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 767px) {
+
+    /* spnosor */
+    .sponsorImg {
+        width: 300px !important;
+    }
+
     .mt-5-mb-5 {
         margin-top: 3rem !important;
         margin-bottom: 3rem !important;
