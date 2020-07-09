@@ -37,10 +37,28 @@
 
 }
 
+.medalBg2 {
+    /* position: relative; */
+    font-size: 2.4rem;
+    /* width: 100%; */
+    height: 34px !important;
+    opacity: 0.3;
+
+}
+
 .medalText {
     position: absolute;
     z-index: 7;
     top: 0px;
+    width: 100%;
+    font-size: 2.4rem;
+}
+
+.medalText2 {
+    position: absolute;
+    z-index: 7;
+    top: 0px;
+    height: 46px;
     width: 100%;
     font-size: 2.4rem;
 }
@@ -77,14 +95,21 @@
     color: #01647A;
 }
 
-.popularityAwardBg {
+.prototypeAwardBg {
     background: #CA87FF;
 }
 
-.popularityAwardText {
+.prototypeAwardText {
     color: #820085;
 }
 
+.privacyAwardBg {
+    background: #ff80bf;
+}
+
+.privacyAwardText {
+    color: #ff1a8c;
+}
 
 
 .winners2020 {
@@ -200,6 +225,12 @@
     }
 }
 
+@media screen and (device-width: 1024px) {
+    .medalText2 {
+        top: 5px !important;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .prizesImg {
         margin-top: 24px;
@@ -218,6 +249,15 @@
     .changeToCol-6 {
         width: 50%;
     }
+
+    .medalBg2 {
+        height: 28px !important;
+    }
+
+    .winners2020Img2 {
+        width: 56px !important;
+        height: 56px !important;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -226,10 +266,24 @@
         height: 150px; */
     }
 
+    .h-XXXpx-max-768 {
+        height: 150px !important;
+    }
 }
 
-
 @media screen and (max-width: 414px) {
+
+
+    .px-414-5 {
+        padding-left: 3rem!important;
+        padding-right: 3rem!important;
+    }
+
+    .winners2020Img2 {
+        width: 86px !important;
+        height: 86px !important;
+    }
+
     .mt-3-sp {
         margin-top: 28px;
     }
@@ -245,6 +299,7 @@
     .winnier-px-8-precent {
         padding: 0 0px;
     }
+
 
 }
 

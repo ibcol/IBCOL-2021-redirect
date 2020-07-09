@@ -26,6 +26,14 @@
     font-size: 18px;
 }
 
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
 .mt-48px {
     margin-top: 48px !important;
 }
@@ -46,9 +54,20 @@
     text-align: right;
 }
 
+@media screen and (max-width: 1040px) {
+    .max1040-fs-14 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .max800-fs-14 {
+        font-size: 14px;
+    }
+
+}
 
 @media screen and (max-width: 413px) {
-
     .text-left-413-centre {
         text-align: center;
     }
@@ -56,10 +75,7 @@
     .text-right-413-centre {
         text-align: center;
     }
-
-
 }
-
 
 @media screen and (max-width: 400px) {
     .h-413-220px {
@@ -67,6 +83,6 @@
     }
 
     .mt-413-4 {
-        margin-top: 1.5rem!important;
+        margin-top: 1.5rem !important;
     }
 }

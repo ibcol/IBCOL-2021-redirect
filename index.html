@@ -226,7 +226,7 @@
 
 
 
-    <section class="s-section target-section" style="display: none;">
+    <section class="s-section target-section">
         <div class="row section-header">
             <div class="col-block prizeHeader">
                 <h1>IBCOL Award Winners</h1>
@@ -237,14 +237,14 @@
             <div class="col-md-4 col-sm-12 centre winnier-px-20-precent">
                 <div class="winners2020">
                     <div class="medalBg goldBg"></div>
-                    <div class="mt-5" id="winnerInfo">
-                        <div class="medalText goldText boldText fs-24"> Gold Medal</div>
+                    <div class="mt-5" id="winnerInfo" onclick="awardWinners(0)">
+                        <div class="medalText goldText boldText fs-24"> GOLD MEDAL</div>
                         <img class="winners2020Img" src="./images/2020-IBCOL-Finalists/uni/hk/cuhk246.png">
-                        <div class="boldText textBlack fs-24 px-2 mt-4 mb-2">
-                            PChain (HK-11)
+                        <div class="boldText textBlack fs-18 px-2 mt-4 mb-2">
+                            BCrew (HK-11)
                         </div>
                         <div class="fs-italicized fs-14 textBlack px-3">
-                            BCred: A Blockchain Platform for Academic Credentials
+                            BCred: A Blockchain Solution for Academic Credentials
                         </div>
                     </div>
                 </div>
@@ -253,14 +253,14 @@
             <div class="col-md-4 col-sm-12 centre mt-5-mb-5 winnier-px-20-precent">
                 <div class="winners2020">
                     <div class="medalBg sliverBg"></div>
-                    <div class="mt-5" id="winnerInfo">
-                        <div class="medalText boldText sliverText fs-24"> Sliver Medal</div>
-                        <img class="winners2020Img" src="./images/2020-IBCOL-Finalists/uni/hk/cuhk246.png">
-                        <div class="boldText textBlack fs-24 px-2 mt-4 mb-2">
-                            PChain (HK-11)
+                    <div class="mt-5" id="winnerInfo" onclick="awardWinners(1)" style="cursor: pointer;">
+                        <div class="medalText boldText sliverText fs-24"> SILVER MEDAL</div>
+                        <img class="winners2020Img" src="./images/2020-IBCOL-Finalists/uni/bd/University of Dhaka.png">
+                        <div class="boldText textBlack fs-18 px-2 mt-4 mb-2">
+                            Team Digital Innovation (BD-04)
                         </div>
                         <div class="fs-italicized fs-14 textBlack px-3">
-                            BCred: A Blockchain Platform for Academic Credentials
+                            Decentralized ID & Aid Distribution Platform for Rohingya Refugees
                         </div>
                     </div>
                 </div>
@@ -269,14 +269,14 @@
             <div class="col-md-4 col-sm-12 centre winnier-px-20-precent">
                 <div class="winners2020">
                     <div class="medalBg bronzeBg"></div>
-                    <div class="mt-5" id="winnerInfo">
-                        <div class="medalText boldText bronzeText fs-24"> Bronze Medal</div>
-                        <img class="winners2020Img" src="./images/2020-IBCOL-Finalists/uni/hk/cuhk246.png">
-                        <div class="boldText textBlack fs-24 px-2 mt-4 mb-2">
-                            PChain (HK-11)
+                    <div class="mt-5" id="winnerInfo" onclick="awardWinners(2)" style="cursor: pointer;">
+                        <div class="medalText boldText bronzeText fs-24">BRONZE MEDAL</div>
+                        <img class="winners2020Img" src="./images/2020-IBCOL-Finalists/uni/nl/iuas246.png">
+                        <div class="boldText textBlack fs-18 px-2 mt-4 mb-2">
+                            Neuro Trace (NL-02)
                         </div>
                         <div class="fs-italicized fs-14 textBlack px-3">
-                            BCred: A Blockchain Platform for Academic Credentials
+                            Blockchain IoT for Supply Chain
                         </div>
                     </div>
                 </div>
@@ -284,21 +284,22 @@
         </div>
 
         <div class="row mt-48px w-400px-xs ">
-            <div class="col-md-6 col-sm-12 centre winnier-px-8-precent">
+            <div class="col-md-4 col-sm-12 centre winnier-px-8-precent">
                 <div class="winners20202 h-413-220px">
-                    <div class="medalBg fintechAwardBg"></div>
-                    <div class="" id="winnerInfo">
-                        <div class="medalText fintechAwardText boldText fs-24"> Fintech Award</div>
-                        <div class="row w-100 mx-0">
-                            <div class="col-auto col-sm-4 my-auto text-right-413-centre mt-413-4">
+                    <div class="medalBg2 privacyAwardBg"></div>
+                    <div class="" id="winnerInfo" onclick="awardWinners(5)" style="cursor: pointer;">
+                        <div class="medalText2 privacyAwardText boldText max1040-fs-14 fs-18 max800-fs-14 px-2">
+                            PRIVACY-CENTRIC AWARD </div>
+                        <div class="row w-100 mx-0 h-XXXpx-max-768">
+                            <div class="col-auto col-sm-4 my-auto text-right-413-centre mt-413-4 px-0 px-414-5  ">
                                 <img class="winners2020Img2" src="./images/2020-IBCOL-Finalists/uni/hk/cuhk246.png">
                             </div>
-                            <div class="col px-2 my-auto text-left-413-centre">
-                                <div class="boldText textBlack fs-14 ">
-                                    PChain (HK-11)
+                            <div class="col px-3 my-auto text-left-413-centre">
+                                <div class="boldText textBlack fs-12 ">
+                                    BCrew (HK-11)
                                 </div>
                                 <div class="fs-italicized fs-12 textBlack">
-                                    BCred: A Blockchain Platform for Academic Credentials
+                                    BCred: A Blockchain Solution for Academic Credentials
                                 </div>
                             </div>
                         </div>
@@ -306,31 +307,58 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-12 centre mt-5-mb-5 winnier-px-8-precent">
+            <div class="col-md-4 col-sm-12 centre mt-5-mb-5 winnier-px-8-precent">
                 <div class="winners20202 h-413-220px">
-                    <div class="medalBg popularityAwardBg"></div>
-                    <div class="" id="winnerInfo">
-                        <div class="medalText popularityAwardText boldText fs-24"> Popularity Award </div>
-                        <div class="row w-100 mx-0">
-                            <div class="col-auto col-sm-4 my-auto text-right-413-centre mt-413-4">
-                                <img class="winners2020Img2" src="./images/2020-IBCOL-Finalists/uni/hk/cuhk246.png">
+                    <div class="medalBg2 prototypeAwardBg"></div>
+                    <div class="" id="winnerInfo" onclick="awardWinners(4)" style="cursor: pointer;">
+                        <div class="medalText2 prototypeAwardText boldText max1040-fs-14 fs-18 max800-fs-14 px-2"> BEST
+                            PROTOTYPE AWARD</div>
+                        <div class="row w-100 mx-0 h-XXXpx-max-768">
+                            <div class="col-auto col-sm-4 my-auto text-right-413-centre mt-413-4 px-0 px-414-5  -2">
+                                <img class="winners2020Img2"
+                                    src="./images/2020-IBCOL-Finalists/uni/bd/University of Dhaka.png">
                             </div>
-                            <div class="col px-2 my-auto text-left-413-centre">
-                                <div class="boldText textBlack fs-14 ">
-                                    PChain (HK-11)
+                            <div class="col px-3 my-auto text-left-413-centre">
+                                <div class="boldText textBlack fs-12 ">
+                                    DU Nimbus (BD-03)
                                 </div>
                                 <div class="fs-italicized fs-12 textBlack">
-                                    BCred: A Blockchain Platform for Academic Credentials
+                                    National Platform for Land Administration in Bangladesh
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-md-4 col-sm-12 centre winnier-px-8-precent">
+                <div class="winners20202 h-413-220px">
+                    <div class="medalBg2 fintechAwardBg"></div>
+                    <div class="" id="winnerInfo" onclick="awardWinners(3)" style="cursor: pointer;">
+                        <div class="medalText2 fintechAwardText boldText max1040-fs-14 fs-18 max800-fs-14 px-2"> BEST
+                            FINTECH AWARD</div>
+                        <div class="row w-100 mx-0 h-XXXpx-max-768">
+                            <div class="col-auto col-sm-4 my-auto text-right-413-centre mt-413-4 px-0 px-414-5  ">
+                                <img class="winners2020Img2" src="./images/2020-IBCOL-Finalists/uni/hk/cityu246.png">
+                            </div>
+                            <div class="col px-3 my-auto text-left-413-centre">
+                                <div class="boldText textBlack fs-12 ">
+                                    MicroCent (HK-06)
+                                </div>
+                                <div class="fs-italicized fs-12 textBlack">
+                                    Blockchain for Microcredit
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-   <section class="s-section target-section" style="display: none;">
+    <!-- <section class="s-section target-section">
         <div class="row section-header">
             <div class="col-block prizeHeader">
                 <h1>Award of Merit Winners</h1>
@@ -425,7 +453,7 @@
 
 
 
-    </section>
+    </section> -->
 
 
 
@@ -495,67 +523,63 @@
                     new committee or join one, please
                 <a href="mailto:pmo@ibcol.org?subject=X-BCOL">let us know</a> today!</p>
             </div> -->
-            <div class="block-1-3 block-tab-full pl-3 pr-3 w100 ">
-                <div class="col-block w-33">
+            <div class="block-1-2 block-tab-full pl-3 pr-3 w100 ">
+                <div class="col-md-6 col-sm-12">
                     <!-- <h5 style="margin-top:1.2rem">Americas</h5> -->
-                    <div class="sm"><span class="flag-icon flag-icon-au"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Australia</a></div>
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-au"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Australia</a></div> -->
                     <div class="sm"><span class="flag-icon flag-icon-bd"></span><a style="padding:0 0 0 10px"
                             href="https://bcolbd.org/" target="_blank" class="sm-title flag">Bangladesh</a>
                     </div>
-                    <div class="sm"><span class="flag-icon flag-icon-br"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Brazil</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-kh"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Cambodia</a></div>
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-br"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Brazil</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-kh"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Cambodia</a></div> -->
 
                     <div class="sm"><span class="flag-icon flag-icon-ca"></span><a style="padding:0 0 0 10px"
                             href="./ca/index.html" target="_blank" class="sm-title flag">Canada</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-cn"></span><a style="padding:0 0 0 10px"
                             href="https://cn.ibcol.org/" target="_blank" class="sm-title flag">China</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-cz"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Czechia</a></div>
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-cz"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Czechia</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-cl"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">CL-BCOL (Chile)</a></div> -->
-                    <div class="sm"><span class="flag-icon flag-icon-eg"></span><a style="padding:0 0 0 10px"
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-eg"></span><a style="padding:0 0 0 10px"
                             href="./eg/index.html" target="_blank" class="sm-title flag">Egypt</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-ee"></span><a style="padding:0 0 0 10px"
-                            href="./ee/index.html" target="_blank" class="sm-title flag">Estonia</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-et"></span><a style="padding:0 0 0 10px"
+                            href="./ee/index.html" target="_blank" class="sm-title flag">Estonia</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-et"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">Ethiopia</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-fr"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">France</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-de"></span><a style="padding:0 0 0 10px"
-                            href="./de/index.html" target="_blank" class="sm-title flag">Germany</a></div>
+                            href="./de/index.html" target="_blank" class="sm-title flag">Germany</a></div> -->
 
 
                     <!-- <div class="sm"><span class="flag-icon flag-icon-mx"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">MX-BCOL (Mexico)</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-us"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">US-BCOL (United States)</a></div> -->
-                </div>
-                <div class="col-block w-33">
-                    <!-- <h5 style="margin-top:1.2rem">Asia-Pacific</h5> -->
-
 
                     <div class="sm"><span class="flag-icon flag-icon-hk"></span><a style="padding:0 0 0 10px"
                             href="https://hk.ibcol.org/" target="_blank" class="sm-title flag">Hong Kong</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-hu"></span><a style="padding:0 0 0 10px"
-                            href="./hu/index.html" target="_blank" class="sm-title flag">Hungary</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-in"></span><a style="padding:0 0 0 10px"
-                            href="https://in.ibcol.org/" target="_blank" class="sm-title flag">India</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-id"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Indonesia</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-ie"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Ireland</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-jp"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Japan</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-kr"></span><a style="padding:0 0 0 10px"
-                            href="https://kr.ibcol.org/" target="_blank" class="sm-title flag">South Korea</a>
-                    </div>
-                    <div class="sm"><span class="flag-icon flag-icon-mo"></span><a style="padding:0 0 0 10px"
-                            href="https://mo.ibcol.org/" target="_blank" class="sm-title flag">Macau</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-my"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Malaysia</a></div>
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-hu"></span><a style="padding:0 0 0 10px"
+                                href="./hu/index.html" target="_blank" class="sm-title flag">Hungary</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-in"></span><a style="padding:0 0 0 10px"
+                                href="https://in.ibcol.org/" target="_blank" class="sm-title flag">India</a></div>
+                        <div class="sm"><span class="flag-icon flag-icon-id"></span><a style="padding:0 0 0 10px"
+                                target="_blank" class="sm-title flag">Indonesia</a></div>
+                        <div class="sm"><span class="flag-icon flag-icon-ie"></span><a style="padding:0 0 0 10px"
+                                target="_blank" class="sm-title flag">Ireland</a></div>
+                        <div class="sm"><span class="flag-icon flag-icon-jp"></span><a style="padding:0 0 0 10px"
+                                target="_blank" class="sm-title flag">Japan</a></div>
+                        <div class="sm"><span class="flag-icon flag-icon-kr"></span><a style="padding:0 0 0 10px"
+                                href="https://kr.ibcol.org/" target="_blank" class="sm-title flag">South Korea</a>
+                        </div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-mo"></span><a style="padding:0 0 0 10px"
+                                href="https://mo.ibcol.org/" target="_blank" class="sm-title flag">Macau</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-my"></span><a style="padding:0 0 0 10px"
+                                target="_blank" class="sm-title flag">Malaysia</a></div> -->
                     <div class="sm"><span class="flag-icon flag-icon-mn"></span><a style="padding:0 0 0 10px"
                             href="https://mn.ibcol.org/" target="_blank" class="sm-title flag"
                             href="./mn/index.html">Mongolia</a></div>
@@ -564,37 +588,41 @@
                     </div>
 
                     <!-- <div class="sm"><span class="flag-icon flag-icon-nz"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">NZ-BCOL (New Zealand)</a></div> -->
-                    <div class="sm"><span class="flag-icon flag-icon-pk"></span><a style="padding:0 0 0 10px"
-                            href="https://www.rnssol.com/PAK-BCOL" target="_blank" class="sm-title flag">Pakistan</a>
-                    </div>
+                                target="_blank" class="sm-title flag">NZ-BCOL (New Zealand)</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-pk"></span><a style="padding:0 0 0 10px"
+                                href="https://www.rnssol.com/PAK-BCOL" target="_blank" class="sm-title flag">Pakistan</a>
+                        </div> -->
                     <div class="sm"><span class="flag-icon flag-icon-ph"></span><a style="padding:0 0 0 10px"
                             href="http://phbcol.org/" target="_blank" class="sm-title flag">Philippines</a></div>
 
                     <!-- <div class="sm"><span class="flag-icon flag-icon-sg"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">SG-BCOL (Singapore)</a></div> -->
-
+                                target="_blank" class="sm-title flag">SG-BCOL (Singapore)</a></div> -->
                 </div>
-                <div class="col-block w-33">
+
+                <div class="col-md-6 col-sm-12">
                     <div class="sm"><span class="flag-icon flag-icon-pl"></span><a style="padding:0 0 0 10px"
                             href="https://pl.ibcol.org/" target="_blank" class="sm-title flag">Poland</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-ru"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Russia</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-sa"></span><a style="padding:0 0 0 10px"
-                            href="https://sa.ibcol.org/" target="_blank" class="sm-title flag">Saudi Arabia</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-sk"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Slovakia</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-za"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">South Africa</a></div>
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-ru"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Russia</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-sa"></span><a style="padding:0 0 0 10px"
+                            href="https://sa.ibcol.org/" target="_blank" class="sm-title flag">Saudi Arabia</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-sk"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Slovakia</a></div> -->
+                    <!-- <div class="sm"><span class="flag-icon flag-icon-za"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">South Africa</a></div> -->
+                    <div class="sm"><span class="flag-icon flag-icon-es"></span><a style="padding:0 0 0 10px"
+                            target="_blank" class="sm-title flag">Spain</a></div>
                     <div class="sm"><span class="flag-icon flag-icon-th"></span><a href="./en-th/index.html"
                             style="padding:0 0 0 10px" target="_blank" class="sm-title flag">Thailand</a>
+                        <div class="sm"><span class="flag-icon flag-icon-tr"></span><a style="padding:0 0 0 10px"
+                                target="_blank" class="sm-title flag">Turkey</a></div>
                         <div class="sm"><span class="flag-icon flag-icon-tw"></span><a style="padding:0 0 0 10px"
                                 target="_blank" class="sm-title flag">Taiwan</a></div>
-                        <div class="sm"><span class="flag-icon flag-icon-ua"></span><a style="padding:0 0 0 10px"
-                                target="_blank" class="sm-title flag">Ukraine</a></div>
-                        <div class="sm"><span class="flag-icon flag-icon-ae"></span><a style="padding:0 0 0 10px"
+                        <!-- <div class="sm"><span class="flag-icon flag-icon-ua"></span><a style="padding:0 0 0 10px"
+                                target="_blank" class="sm-title flag">Ukraine</a></div> -->
+                        <!-- <div class="sm"><span class="flag-icon flag-icon-ae"></span><a style="padding:0 0 0 10px"
                                 href="" target="_blank" class="sm-title flag">United Arab Emirates</a>
-                        </div>
+                        </div> -->
                         <div class="sm"><span class="flag-icon flag-icon-gb"></span><a style="padding:0 0 0 10px"
                                 href="https://gb.ibcol.org/" target="_blank" class="sm-title flag">United
                                 Kingdom</a>
@@ -826,6 +854,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/function.js"></script>
+    <script src="js/2020AwardWinners.js"></script>
 </body>
 
 </html>
