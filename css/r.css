@@ -54,6 +54,12 @@
     font-size: 2.4rem;
 }
 
+/* .medalFlag {
+    position: absolute;
+    z-index: 7;
+    top: 0px;
+} */
+
 .medalText2 {
     position: absolute;
     z-index: 7;
