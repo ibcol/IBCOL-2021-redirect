@@ -28,6 +28,8 @@
     font-size: 24px !important;
 }
 
+.pointer {cursor: pointer;}
+
 .medalBg {
     /* position: relative; */
     font-size: 2.4rem;
