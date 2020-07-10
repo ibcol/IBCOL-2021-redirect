@@ -212,7 +212,7 @@ for (let i = 0; i <= 18; i++) {
 function meritWinners(target) {
 
     var bd = [
-        '.2020-IBCOL-Finalists/BD-12-representatives/Hyperactive%20Oranges/index.html',
+        './2020-IBCOL-Finalists/BD-12-representatives/Hyperactive%20Oranges/index.html',
         './2020-IBCOL-Finalists/BD-12-representatives/Team%20Leads%20Chain/index.html',
         './2020-IBCOL-Finalists/BD-12-representatives/DU_Nimbus/index.html',
         './2020-IBCOL-Finalists/BD-12-representatives/Team%20Digital%20Innovation/index.html',
