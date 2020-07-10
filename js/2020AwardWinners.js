@@ -123,7 +123,7 @@ var meritWinnersLink = [
 
 var allAwardTeams = document.getElementById('allAwardTeams');
 
-for (let i = 0; i <= 18; i++) {
+for (let i = 0; i < 18; i++) {
     if (i == 0) {
         allAwardTeams.innerHTML += (
             '<div class="row" id="awardRow' + i + '">' + '</div>'
