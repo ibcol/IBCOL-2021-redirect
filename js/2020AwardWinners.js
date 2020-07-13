@@ -4,7 +4,8 @@ var awardWinnersArr = [
     './2020EXPO/2020-IBCOL-Finalists/NL-12-representatives/Neuro Trace/index.html',
     './2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/Microcent/index.html',
     './2020EXPO/2020-IBCOL-Finalists/BD-12-representatives/DU_Nimbus/index.html',
-    './2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/BCrew/index.html'
+    './2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/BCrew/index.html',
+    './2020EXPO/2020-IBCOL-Finalists/HK-12-representatives/Blockio/index.html'
 ];
 
 function awardWinners(index) {
@@ -265,8 +266,8 @@ function meritWinners(target) {
     ];
 
     var pl = [
-        './2020-IBCOL-Finalists/NL-12-representatives/Agnos/index.html',
-        './2020-IBCOL-Finalists/NL-12-representatives/Neuro%20Trace/index.html'
+        './2020-IBCOL-Finalists/PL-12-representatives/Blockchain%20Society%20SGH/index.html',
+        './2020-IBCOL-Finalists/PL-12-representatives/E-voting%20for%20universities/index.html'
     ];
 
     var ph = [
