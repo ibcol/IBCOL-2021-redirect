@@ -123,6 +123,15 @@
     color: #ff1a8c;
 }
 
+.peopleChoiceAwardBg {
+    background: #ffa502;
+}
+
+.peopleChoiceAwardText {
+    color: #ff7b02;
+}
+
+
 
 .winners2020 {
     position: relative;
