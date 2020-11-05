@@ -1,0 +1,147 @@
+.unset {
+  all: unset;
+}
+
+.margin-b-60 {
+  margin-bottom: 60px !important;
+}
+
+.apply-btn {
+  color: #0086ca !important;
+}
+
+.btn-theme-sm {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+
+.btn-white-brd {
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border-color: #0086ca;
+  border-width: 1px;
+}
+
+.btn-theme {
+  width: 149.39px;
+  position: relative;
+  display: inline-block;
+  line-height: 1.4;
+  text-align: center;
+  background-image: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  border-style: solid;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.btn-attn {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+  color: rgb(255, 255, 255);
+  background: #0086ca;
+  border-width: 1px;
+  border-color: #0086ca;
+}
+
+.btn-white-brd:hover,
+.btn-white-brd:focus,
+.btn-white-brd.focus {
+  color: rgb(255, 255, 255) !important;
+  background: #0086ca;
+  border-color: transparent;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme.focus {
+  text-decoration: none;
+}
+
+.btn-theme:hover {
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.btn-attn.btn-theme:hover {
+  background-color: #fff;
+  color: #0086ca;
+}
+
+.btn-theme2:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0086ca;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1157px) {
+  .ipad-mt-8px {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1156px) {
+  .ipad-mt-8px {
+    margin-top: 8px;
+    width: 149.39px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .ipad-mt-8px {
+    margin-top: 0px;
+  }
+
+  .mt-575-0 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+
+  .mb-sm-2 {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .ipad-mt-8px {
+    margin-top: 8px;
+  }
+}
