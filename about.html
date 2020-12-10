@@ -7,16 +7,18 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176844392-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-176844392-3');
     </script>
 
-    <title>About the International Blockchain Olympiad 2020</title>
+    <title>About the International Blockchain Olympiad</title>
     <link rel="icon" href="images/oldReactTransferImg/favicons/favicon-16x16.png" type="image/gif" sizes="16x16">
-    <meta name="description"
-        content="International Blockchain Olympiad is a multidisciplinary design and building competition.
+    <meta name="description" content="International Blockchain Olympiad is a multidisciplinary design and building competition.
         IBCOL 2020 invites students from around the world to solve real-world challenges through decentralised applications." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -26,8 +28,7 @@
     <meta property="og:image:height" content="144" />
     <meta property="og:image:alt" content="International Blockchain Olympiad" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/vendor.css" />
@@ -35,6 +36,7 @@
     <link rel="stylesheet" href="css/landingPage.css" />
     <link rel="stylesheet" href="./css/gbRemake.css" />
     <link rel="stylesheet" href="./css/r.css" />
+    <link rel="stylesheet" href="css/dropDown.css" />
 
     <script src="./js/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -66,13 +68,21 @@
 
         <div class="desktop-nav">
             <ul class="nav_list">
-                <li><a href="about.html" class="pageAnchorColor">About</a></li>
-                <li><a href="./2020EXPO/schedule.html">Expo</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn pageAnchorColor ">About ▾</a>
+                    <div class="dropdown-content">
+                        <a href="./about.html">About IBCOL</a>
+                        <a href="https://2018.ibcol.org/">IBCOL 2018</a>
+                        <a href="https://2019.ibcol.org/">IBCOL 2019</a>
+                        <a href="https://2020.ibcol.org/">IBCOL 2020</a>
+                        <a href="https://2021.ibcol.org/">IBCOL 2021</a>
+                    </div>
+                </li>
+
+                <li><a href="how-to-join.html">How To Join</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="./submission.html">Submit Project</a></li>
-                <li class="featured submitBg"><a
-                        href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX"
-                        class="submitText" style="color: #fff;"> Subscribe us</a></li>
+                <li class="featured submitBg"><a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX" class="submitText" style="color: #fff;"> Subscribe us</a></li>
             </ul>
         </div>
 
@@ -83,12 +93,17 @@
 
             <div class="header-nav__content">
                 <ul class="header-nav__list">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="./2020EXPO/schedule.html">Expo</a></li>
+                    <h2 class="text-white my-0">About ▾</h2>
+                    <li><a href="./about.html">About IBCOL</a></li>
+                    <li><a href="https://2018.ibcol.org/">IBCOL 2018</a></li>
+                    <li><a href="https://2019.ibcol.org/">IBCOL 2019</a></li>
+                    <li><a href="https://2020.ibcol.org/">IBCOL 2020</a></li>
+                    <li><a href="https://2021.ibcol.org/">IBCOL 2021</a></li>
+
+                    <li><a href="how-to-join.html">How To Join</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="./submission.html">Submit Project</a></li>
-                    <li class="featured"><a
-                            href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX">Subscribe
+                    <li class="featured"><a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX">Subscribe
                             us</a></li>
                 </ul>
             </div>
@@ -239,8 +254,7 @@
 
 
     <div class="home-content__button aboveFooterBtn">
-        <a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX"
-            target="_blank" class="btn btn--primary btn--large ">
+        <a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX" target="_blank" class="btn btn--primary btn--large ">
             Subscribe us</a>
         <a href="./about.html" class="btn btn--large">FIND OUT MORE </a>
     </div>
@@ -268,16 +282,11 @@
                     </div>
                     <br>
                     <div class="col-12 ">
-                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img
-                                class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
-                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/tt.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/fb.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
+                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg" src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg" src="./images/sm/tt.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg" src="./images/sm/fb.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg" src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
                 </div>
             </div>
 
@@ -289,10 +298,10 @@
                             <a href=""><b>info@ibcol.org</b></a></p>
                     </div>
                     <br>
-                    <div class="col-12">
+<!--                     <div class="col-12">
                         <p class="footerParaText">2020 International Blockchain Olympiad <br>
                             <a href=""><b>2020@ibcol.org</b></a>
-                    </div>
+                    </div> -->
                     </p>
                 </div>
             </div>
@@ -302,7 +311,7 @@
         </div>
 
         <div class="row">
-            <div class="col-full ss-copyright mt-5 colorWt2"><span>Copyright © 2016-2020 International Blockchain
+            <div class="col-full ss-copyright mt-5 colorWt2"><span>Copyright © 2016-2021 International Blockchain
                     Olympiad. All
                     rights
                     reserved.</span>

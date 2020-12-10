@@ -7,7 +7,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176844392-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-176844392-3');
@@ -16,8 +19,7 @@
     <meta charset="utf-8" />
     <title>International Blockchain Olympiad</title>
     <link rel="icon" href="images/oldReactTransferImg/favicons/favicon-16x16.png" type="image/gif" sizes="16x16">
-    <meta name="description"
-        content="International Blockchain Olympiad is a multidisciplinary design and building competition.
+    <meta name="description" content="International Blockchain Olympiad is a multidisciplinary design and building competition.
         IBCOL 2020 invites students from around the world to solve real-world challenges through decentralised applications." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -27,8 +29,7 @@
     <meta property="og:image:height" content="144" />
     <meta property="og:image:alt" content="International Blockchain Olympiad" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="css/base.css" />
@@ -39,6 +40,7 @@
     <link rel="stylesheet" href="css/gbRemake.css" />
     <link rel="stylesheet" href="css/r.css" />
     <link rel="stylesheet" href="css/romanEX.css" />
+    <link rel="stylesheet" href="css/dropDown.css" />
 
     <script src="js/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -66,13 +68,21 @@
 
         <div class="desktop-nav">
             <ul class="nav_list">
-                <li><a href="about.html" class="">About</a></li>
-                <li><a href="./2020EXPO/schedule.html">Expo</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn ">About ▾</a>
+                    <div class="dropdown-content">
+                        <a href="./about.html">About IBCOL</a>
+                        <a href="https://2018.ibcol.org/">IBCOL 2018</a>
+                        <a href="https://2019.ibcol.org/">IBCOL 2019</a>
+                        <a href="https://2020.ibcol.org/">IBCOL 2020</a>
+                        <a href="https://2021.ibcol.org/">IBCOL 2021</a>
+                    </div>
+                </li>
+
+                <li><a href="how-to-join.html">How To Join</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="./submission.html">Submit Project</a></li>
-                <li class="featured submitBg"><a
-                        href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX"
-                        class="submitText" style="color: #fff;"> Subscribe us</a></li>
+                <li class="featured submitBg"><a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX" class="submitText" style="color: #fff;"> Subscribe us</a></li>
             </ul>
         </div>
 
@@ -83,12 +93,17 @@
 
             <div class="header-nav__content">
                 <ul class="header-nav__list">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="./2020EXPO/schedule.html">Expo</a></li>
+                    <h2 class="text-white my-0">About ▾</h2>
+                    <li><a href="./about.html">About IBCOL</a></li>
+                    <li><a href="https://2018.ibcol.org/">IBCOL 2018</a></li>
+                    <li><a href="https://2019.ibcol.org/">IBCOL 2019</a></li>
+                    <li><a href="https://2020.ibcol.org/">IBCOL 2020</a></li>
+                    <li><a href="https://2021.ibcol.org/">IBCOL 2021</a></li>
+
+                    <li><a href="how-to-join.html">How To Join</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="./submission.html">Submit Project</a></li>
-                    <li class="featured"><a
-                            href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX">Subscribe
+                    <li class="featured"><a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX">Subscribe
                             us</a></li>
                 </ul>
             </div>
@@ -100,9 +115,7 @@
         </a>
     </header>
 
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll"
-        data-image-src="images/hero-bg-2.jpg" data-natural-width="3000" data-natural-height="2000"
-        data-position-y="center">
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg-2.jpg" data-natural-width="3000" data-natural-height="2000" data-position-y="center">
         <div class="grid-overlay">
             <div></div>
         </div>
@@ -116,10 +129,7 @@
                     <h3 class="centre w100">Students spearheading our decentralized future: 2-4 July 2021</h3>
                 </div>
 
-                <div class="home-content__button centre w100 mt-0"><a
-                        href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX"
-                        class="btn btn--primary btn--large">Subscribe us</a><a href="about.html"
-                        class="btn btn--large">FIND
+                <div class="home-content__button centre w100 mt-0"><a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX" class="btn btn--primary btn--large">Subscribe us</a><a href="about.html" class="btn btn--large">FIND
                         OUT
                         MORE</a>
                 </div>
@@ -130,39 +140,31 @@
     </section>
     <!-- end s-home -->
 
-    <section id="sponsors" class=" s-section target-section">
+    <section class="s-section target-section">
         <div class="row section-header">
-            <!-- <div class="col-block">
-                <h1>Our Sponsors</h1>
-            </div> -->
-            <div class="row">
-                <div class="block-1-3">
-                    <div class="col-block widthSmFix paddingSmFix centre">
-                        <a href="https://www.hsbc.com.hk" target="_blank">
-                            <div>
-                                <img class="sponsorImg"
-                                    src="images/oldReactTransferImg/images/IBCOL-2020-Organiser-HSBC.png" />
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-block widthSmFix paddingSmFix centre">
-                        <a href="https://www.cb.cityu.edu.hk" target="_blank">
-                            <div>
-                                <img class="sponsorImg"
-                                    src="images/oldReactTransferImg/images/IBCOL-2020-Organiser-CityU-CoB.png" />
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-block widthSmFix paddingSmFix centre">
-                        <a href="https://www.hkbcs.org" target="_blank">
-                            <div>
-                                <img class="sponsorImg"
-                                    src="images/oldReactTransferImg/images/IBCOL-2020-Organiser-HKBCS.png" />
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-block w-100-center">
+                <h1>Our Sponsors </h1>
             </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2021-Funded-by-HSBC-for-light-bg.png" class="sponsorImg">
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2021-Organised-by-CityU-for-light-bg-colour.png" class="sponsorImg">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2021-Strategic-Partner-HKBCS-for-light-bg.png" class="sponsorImg">
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-lg-4 text-center px-0">
+                <img src="./images/sponsor/IBCOL-2020-Support-organisation-OGCIO-for-light-bg-color.png" class="sponsorImg">
+            </div>
+
+        </div>
     </section>
 
     <!-- <section class="s-section target-section" id="about">
@@ -177,10 +179,8 @@
                     recent students to solve
                     real-world problems with decentralized applications, built with blockchain or distributed ledger
                     technology. This year is the third edition of IBCOL, built on the momentum generated from
-                    <a href="2018IBCOL/International Blockchain Olympiad (IBCOL) _ IBCOL-2018.html"
-                        target="_blank">IBCOL 2018</a> and
-                    <a href="2019IBCOL/International Blockchain Olympiad (IBCOL) _ IBCOL-2019.html"
-                        target="_blank">IBCOL 2019</a></p>
+                    <a href="2018IBCOL/International Blockchain Olympiad (IBCOL) _ IBCOL-2018.html" target="_blank">IBCOL 2018</a> and
+                    <a href="2019IBCOL/International Blockchain Olympiad (IBCOL) _ IBCOL-2019.html" target="_blank">IBCOL 2019</a></p>
             </div>
             <div class="block-1-3 icon">
                 <div class="col-block widthSmFix">
@@ -204,8 +204,7 @@
                         <div>
                             <i class="material-icons blue">event_seat</i> <i class="material-icons black">event_seat</i>
                             <i class="material-icons red">event_seat</i>
-                            <br> <i class="material-icons yellow">airplay</i> <i
-                                class="material-icons green">airplay</i>
+                            <br> <i class="material-icons yellow">airplay</i> <i class="material-icons green">airplay</i>
                         </div>
                         <div class="countriesName">
                             <h5 style="margin-top:1.2rem">Academic Conference</h5>
@@ -218,9 +217,7 @@
                     <div class="countries landingSectionCentre">
                         <div class="">
                             <i class="material-icons blue">laptop</i> <i class="material-icons black">developer_mode</i>
-                            <i class="material-icons red">laptop_chromebook</i> <br> <i
-                                class="material-icons yellow">laptop_windows</i> <i
-                                class="material-icons green">laptop_mac</i></div>
+                            <i class="material-icons red">laptop_chromebook</i> <br> <i class="material-icons yellow">laptop_windows</i> <i class="material-icons green">laptop_mac</i></div>
                         <div class="countriesName">
                             <h5 style="margin-top:1.2rem">Technical Hackathon (optional)</h5>
                             <p class="landingSectionCentre">Contestants may build something to impress investors and
@@ -232,9 +229,7 @@
         </div>
     </section> -->
 
-
-
-    <section class="s-section target-section">
+    <!-- <section class="s-section target-section">
         <div class="row section-header">
             <div class="col-block prizeHeader">
                 <h1>IBCOL 2020 Prizes Winners</h1>
@@ -248,7 +243,7 @@
                     <div class="mt-5" id="winnerInfo" onclick="awardWinners(0)" style="cursor: pointer;">
                         <div class="medalText goldText boldText fs-24"> GOLD MEDAL</div>
                         <img class="winners2020Img" src="./images/2020-IBCOL-Finalists/uni/hk/cuhk246.png">
-                        <!-- <span class="flag-icon flag-icon-hk medalFlag"></span> -->
+
                         <div class="boldText textBlack fs-18 px-2 mt-4 mb-2">
                             BCrew (HK-11)
                         </div>
@@ -324,8 +319,7 @@
                             PROTOTYPE AWARD</div>
                         <div class="row w-100 mx-0 h-XXXpx-max-768">
                             <div class="col-auto col-sm-4 my-auto text-right-413-centre mt-413-4 px-0 px-414-5  -2">
-                                <img class="winners2020Img2"
-                                    src="./images/2020-IBCOL-Finalists/uni/bd/University of Dhaka.png">
+                                <img class="winners2020Img2" src="./images/2020-IBCOL-Finalists/uni/bd/University of Dhaka.png">
                             </div>
                             <div class="col px-3 my-auto text-left-413-centre">
                                 <div class="boldText textBlack fs-12 ">
@@ -389,9 +383,9 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
-    <section class="s-section target-section">
+    <!-- <section class="s-section target-section">
         <div class="row section-header">
             <div class="col-block prizeHeader">
                 <h1>IBCOL 2020 Award of Merit</h1>
@@ -455,22 +449,22 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
     <section class="s-section target-section">
         <div class="row section-header">
-            <div class="col-block prizeHeader">
-                <h1>IBCOL 2020 Prizes </h1>
+            <div class="col-block prizeHeader w-100-center">
+                <h1>IBCOL 2021 Prizes </h1>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-4 col-sm-4 centre">
                 <img src="./images//thePrizes/1.png" class="prizesImg">
             </div>
-            <div class="col-md-8 col-sm-8">
+            <div class="col-md-5 col-sm-8">
                 <h5 style="margin-top:1.2rem" class="fs24 center-sp">Best Overall Solutions</h5>
                 <p class="olympicWinner center-sp"> Gold Medal – 4096 USD – Project with 1st Highest Overall Score</p>
                 <p class="olympicWinner center-sp"> Silver Medal – 2048 USD – Project with 2nd Highest Overall Score</p>
@@ -478,11 +472,11 @@
             </div>
         </div>
 
-        <div class="row mt-3-sp">
+        <div class="row mt-3-sp justify-content-center">
             <div class="col-md-4 col-sm-4 centre">
                 <img src="./images//thePrizes/2.png" class="prizesImg">
             </div>
-            <div class="col-md-8 col-sm-8">
+            <div class="col-md-5 col-sm-8">
                 <h5 style="margin-top:1.2rem" class="fs24 center-sp">Special Prizes</h5>
                 <p class="olympicWinner center-sp"> Best Whitepaper – <i>this prize has been deprecated (see
                         Announcement)</i></p>
@@ -491,55 +485,17 @@
                 <p class="olympicWinner center-sp"> Award of Merit – Project with Complete Solution</p>
             </div>
         </div>
-
-        <div class="row mt-3-sp">
-            <div class="col-md-12 col-sm-12 mt-2">
-                <h5 style="margin-top:1.2rem" class="fs24 center-sp">em<b>lyon business school</b>’s offer</h5>
-
-
-                <p class="olympicWinner center-sp">Fast pass for the em<b>lyon business school</b> Global BBA program
-                    (bachelor degree) apppcant;
-                </p>
-                <p class="olympicWinner center-sp">Fast pass + VIP career mentor service for the em<b>lyon business
-                        school</b> Global BBA program
-                    (1+3
-                    bachelor degree); this program is1 year study in Shanghai and 3 years study in France. </p>
-
-                <p class="olympicWinner center-sp">Scholarship offer to Master Programs (1 Grande-Ecole, 1 MSc in)
-                    apppcant:
-                    Admitted students are granted with scholarship PGE: 20- 50% of the study fee / MSc in Finance:
-                    10 - 15% of 1st year tuition fee;
-                </p>
-
-            </div>
-        </div>
-
-        <!-- <div class="row mt-3-sp">
-            <div class="col-md-4 col-sm-4 centre">
-                <img src="./images//thePrizes/3.png" class="prizesImg">
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <h5 style="margin-top:1.2rem" class="fs24 center-sp">People's Choice</h5>
-                <p class="olympicWinner center-sp"> Most Innovative Project - as determined by votes from the audience
-                </p>
-                <p class="olympicWinner center-sp"> Most Promising Project - as determined by votes from the audience
-                </p>
-                <p class="olympicWinner center-sp"> Most Impactful Project - as determined by votes from the audience
-                </p>
-            </div>
-        </div> -->
-
     </section>
 
 
 
     <section class="s-section target-section" id="committees">
         <div class="row section-header">
-            <div class="col-block">
+            <div class="col-block w-100-center">
                 <h1>Participating Blockchain Olympiads</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row j-c-c">
             <!-- <div class="col-block">
                 <p>IBCOL 2020 is a competition among nominated delegates from around the world. If you would like to
                     participate, find out more from the organizing committee of your region. If you would like to
@@ -547,23 +503,20 @@
                     new committee or join one, please
                 <a href="mailto:pmo@ibcol.org?subject=X-BCOL">let us know</a> today!</p>
             </div> -->
-            <div class="block-1-2 block-tab-full pl-3 pr-3 w100 ">
-                <div class="col-md-6 col-sm-12">
+            <div class="row justify-content-center w100">
+                <div class="col-md-3 col-sm-12 text-center-767">
                     <!-- <h5 style="margin-top:1.2rem">Americas</h5> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-au"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">Australia</a></div> -->
-                    <div class="sm"><span class="flag-icon flag-icon-bd"></span><a style="padding:0 0 0 10px"
-                            href="https://bcolbd.org/" target="_blank" class="sm-title flag">Bangladesh</a>
+                    <div class="sm"><span class="flag-icon flag-icon-bd"></span><a style="padding:0 0 0 10px" href="https://bcolbd.org/" target="_blank" class="sm-title flag">Bangladesh</a>
                     </div>
                     <!-- <div class="sm"><span class="flag-icon flag-icon-br"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">Brazil</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-kh"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">Cambodia</a></div> -->
 
-                    <div class="sm"><span class="flag-icon flag-icon-ca"></span><a style="padding:0 0 0 10px"
-                            href="./ca/index.html" target="_blank" class="sm-title flag">Canada</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-cn"></span><a style="padding:0 0 0 10px"
-                            href="https://cn.ibcol.org/" target="_blank" class="sm-title flag">China</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-ca"></span><a style="padding:0 0 0 10px" href="./ca/index.html" target="_blank" class="sm-title flag">Canada</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-cn"></span><a style="padding:0 0 0 10px" href="https://cn.ibcol.org/" target="_blank" class="sm-title flag">China</a></div>
                     <!-- <div class="sm"><span class="flag-icon flag-icon-cz"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">Czechia</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-cl"></span><a style="padding:0 0 0 10px"
@@ -585,8 +538,7 @@
                     <div class="sm"><span class="flag-icon flag-icon-us"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">US-BCOL (United States)</a></div> -->
 
-                    <div class="sm"><span class="flag-icon flag-icon-hk"></span><a style="padding:0 0 0 10px"
-                            href="https://hk.ibcol.org/" target="_blank" class="sm-title flag">Hong Kong</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-hk"></span><a style="padding:0 0 0 10px" href="https://hk.ibcol.org/" target="_blank" class="sm-title flag">Hong Kong</a></div>
                     <!-- <div class="sm"><span class="flag-icon flag-icon-hu"></span><a style="padding:0 0 0 10px"
                                 href="./hu/index.html" target="_blank" class="sm-title flag">Hungary</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-in"></span><a style="padding:0 0 0 10px"
@@ -604,11 +556,8 @@
                                 href="https://mo.ibcol.org/" target="_blank" class="sm-title flag">Macau</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-my"></span><a style="padding:0 0 0 10px"
                                 target="_blank" class="sm-title flag">Malaysia</a></div> -->
-                    <div class="sm"><span class="flag-icon flag-icon-mn"></span><a style="padding:0 0 0 10px"
-                            href="https://mn.ibcol.org/" target="_blank" class="sm-title flag"
-                            href="./mn/index.html">Mongolia</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-nl"></span><a style="padding:0 0 0 10px"
-                            href="https://nl.ibcol.org/index.html" target="_blank" class="sm-title flag">Netherlands</a>
+                    <div class="sm"><span class="flag-icon flag-icon-mn"></span><a style="padding:0 0 0 10px" href="https://mn.ibcol.org/" target="_blank" class="sm-title flag" href="./mn/index.html">Mongolia</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-nl"></span><a style="padding:0 0 0 10px" href="https://nl.ibcol.org/index.html" target="_blank" class="sm-title flag">Netherlands</a>
                     </div>
 
                     <!-- <div class="sm"><span class="flag-icon flag-icon-nz"></span><a style="padding:0 0 0 10px"
@@ -616,16 +565,14 @@
                     <!-- <div class="sm"><span class="flag-icon flag-icon-pk"></span><a style="padding:0 0 0 10px"
                                 href="https://www.rnssol.com/PAK-BCOL" target="_blank" class="sm-title flag">Pakistan</a>
                         </div> -->
-                    <div class="sm"><span class="flag-icon flag-icon-ph"></span><a style="padding:0 0 0 10px"
-                            href="http://phbcol.org/" target="_blank" class="sm-title flag">Philippines</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-ph"></span><a style="padding:0 0 0 10px" href="http://phbcol.org/" target="_blank" class="sm-title flag">Philippines</a></div>
 
                     <!-- <div class="sm"><span class="flag-icon flag-icon-sg"></span><a style="padding:0 0 0 10px"
                                 target="_blank" class="sm-title flag">SG-BCOL (Singapore)</a></div> -->
                 </div>
 
-                <div class="col-md-6 col-sm-12">
-                    <div class="sm"><span class="flag-icon flag-icon-pl"></span><a style="padding:0 0 0 10px"
-                            href="https://pl.ibcol.org/" target="_blank" class="sm-title flag">Poland</a></div>
+                <div class="col-md-3 col-sm-12 text-center-767">
+                    <div class="sm"><span class="flag-icon flag-icon-pl"></span><a style="padding:0 0 0 10px" href="https://pl.ibcol.org/" target="_blank" class="sm-title flag">Poland</a></div>
                     <!-- <div class="sm"><span class="flag-icon flag-icon-ru"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">Russia</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-sa"></span><a style="padding:0 0 0 10px"
@@ -634,27 +581,20 @@
                             target="_blank" class="sm-title flag">Slovakia</a></div> -->
                     <!-- <div class="sm"><span class="flag-icon flag-icon-za"></span><a style="padding:0 0 0 10px"
                             target="_blank" class="sm-title flag">South Africa</a></div> -->
-                    <div class="sm"><span class="flag-icon flag-icon-es"></span><a style="padding:0 0 0 10px"
-                            target="_blank" class="sm-title flag">Spain</a></div>
-                    <div class="sm"><span class="flag-icon flag-icon-th"></span><a href="./en-th/index.html"
-                            style="padding:0 0 0 10px" target="_blank" class="sm-title flag">Thailand</a>
-                        <div class="sm"><span class="flag-icon flag-icon-tr"></span><a style="padding:0 0 0 10px"
-                                target="_blank" class="sm-title flag">Turkey</a></div>
-                        <div class="sm"><span class="flag-icon flag-icon-tw"></span><a style="padding:0 0 0 10px"
-                                target="_blank" class="sm-title flag">Taiwan</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-es"></span><a style="padding:0 0 0 10px" target="_blank" class="sm-title flag">Spain</a></div>
+                    <div class="sm"><span class="flag-icon flag-icon-th"></span><a href="./en-th/index.html" style="padding:0 0 0 10px" target="_blank" class="sm-title flag">Thailand</a>
+                        <div class="sm"><span class="flag-icon flag-icon-tr"></span><a style="padding:0 0 0 10px" target="_blank" class="sm-title flag">Turkey</a></div>
+                        <div class="sm"><span class="flag-icon flag-icon-tw"></span><a style="padding:0 0 0 10px" target="_blank" class="sm-title flag">Taiwan</a></div>
                         <!-- <div class="sm"><span class="flag-icon flag-icon-ua"></span><a style="padding:0 0 0 10px"
                                 target="_blank" class="sm-title flag">Ukraine</a></div> -->
                         <!-- <div class="sm"><span class="flag-icon flag-icon-ae"></span><a style="padding:0 0 0 10px"
                                 href="" target="_blank" class="sm-title flag">United Arab Emirates</a>
                         </div> -->
-                        <div class="sm"><span class="flag-icon flag-icon-gb"></span><a style="padding:0 0 0 10px"
-                                href="https://gb.ibcol.org/" target="_blank" class="sm-title flag">United
+                        <div class="sm"><span class="flag-icon flag-icon-gb"></span><a style="padding:0 0 0 10px" href="https://gb.ibcol.org/" target="_blank" class="sm-title flag">United
                                 Kingdom</a>
                         </div>
-                        <div class="sm"><span class="flag-icon flag-icon-us"></span><a style="padding:0 0 0 10px"
-                                target="_blank" class="sm-title flag">United States</a></div>
-                        <div class="sm"><span class="flag-icon flag-icon-vn"></span><a style="padding:0 0 0 10px"
-                                href="https://yellowblocks.org/ibcol/" target="_blank" class="sm-title flag">Vietnam</a>
+                        <div class="sm"><span class="flag-icon flag-icon-us"></span><a style="padding:0 0 0 10px" target="_blank" class="sm-title flag">United States</a></div>
+                        <div class="sm"><span class="flag-icon flag-icon-vn"></span><a style="padding:0 0 0 10px" href="https://yellowblocks.org/ibcol/" target="_blank" class="sm-title flag">Vietnam</a>
                         </div>
                     </div>
                 </div>
@@ -786,8 +726,7 @@
 
 
     <div class="home-content__button aboveFooterBtn aboveFooterBtn2">
-        <a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX"
-            target="_blank" class="btn btn--primary btn--large ">
+        <a href="https://f8182bf9.sibforms.com/serve/MUIEAEMqg57DkDSfOLMY07aiHaCG5eVPm5_bJL9owvVRIkM4dRLXllmbirREYCxu0oFBE-zwuULXaq1OVEOP1a67C0nN83HYU6ysIAl7u4oMN3cKgl9Jj3fXKCMa01Ivciqa3PozH02IxnpkMBmy4O11-R9-C3Tr0vJJga3jFvaF886UrMOlEQmWqfd6Ok3G3CKNdpW1NwJk0ipX" target="_blank" class="btn btn--primary btn--large ">
             Subscribe us</a>
         <a href="./about.html" class="btn btn--large">FIND OUT MORE </a>
     </div>
@@ -815,16 +754,11 @@
                     </div>
                     <br>
                     <div class="col-12 ">
-                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img
-                                class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
-                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/tt.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/fb.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
+                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg" src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg" src="./images/sm/tt.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg" src="./images/sm/fb.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg" src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
                 </div>
             </div>
 
@@ -836,10 +770,10 @@
                             <a href=""><b>info@ibcol.org</b></a></p>
                     </div>
                     <br>
-                    <div class="col-12">
+                    <!--                     <div class="col-12">
                         <p class="footerParaText">2020 International Blockchain Olympiad <br>
                             <a href=""><b>2020@ibcol.org</b></a>
-                    </div>
+                    </div> -->
                     </p>
                 </div>
             </div>
@@ -849,7 +783,7 @@
         </div>
 
         <div class="row">
-            <div class="col-full ss-copyright mt-5 colorWt2"><span>Copyright © 2016-2020 International Blockchain
+            <div class="col-full ss-copyright mt-5 colorWt2"><span>Copyright © 2016-2021 International Blockchain
                     Olympiad. All
                     rights
                     reserved.</span>
